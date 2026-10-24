@@ -25,6 +25,7 @@ Then open `http://localhost:<port>/` in a browser.
 | Game | Port | Engine |
 |------|------|--------|
 | 777-slot-port | 8130 | Construct 3 |
+| candy-kingdom-port | 8141 | Construct 3 |
 | crazy-monkey-slot-machine | 8824 | Construct 3 |
 | farm-slot-port | 8135 | Construct 3 |
 | toyland-fortune | 8124 | Construct 3 |
