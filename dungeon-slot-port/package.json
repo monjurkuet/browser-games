@@ -1,0 +1,8 @@
+{
+  "name": "dungeon-slot-port",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local direct port of the Dungeon Slot Construct 3 showcase game",
+  "scripts": { "start": "node server.js" },
+  "license": "MIT"
+}

@@ -1,0 +1,267 @@
+{
+  "source": "https://showcase.tegagame.com/games/slot-astro/",
+  "files": {
+    "appmanifest.json": {
+      "bytes": 737,
+      "sha256": "6e19f73ff8e42a7ec336aac98d7986314e32ddbd356be2f0eb7fd05070dd88c3"
+    },
+    "data.json": {
+      "bytes": 154057,
+      "sha256": "36c0f6983272a6736b9577e33151710c6502e862a0a69258a267bc08103cafd5"
+    },
+    "icons/icon-128.png": {
+      "bytes": 31483,
+      "sha256": "dac7da340fce70fc6912134afb5ed952828ba5c04f26d43f58c7100d4f28823b"
+    },
+    "icons/icon-16.png": {
+      "bytes": 976,
+      "sha256": "74174c0b7f5d08ced14beb014f965a43a915e921eadb9b0138bba12fb0cf0b1a"
+    },
+    "icons/icon-256.png": {
+      "bytes": 91416,
+      "sha256": "d499080d786d24b8ac65ece3a3ff19e4dadf861f6d44df95a0d6782557c02e3f"
+    },
+    "icons/icon-32.png": {
+      "bytes": 3158,
+      "sha256": "7d42b9dfb8e9ce0e5e457be61b4a7ba8b740ab927c9d3c2e4dd0838d70b6a7c4"
+    },
+    "icons/icon-512.png": {
+      "bytes": 233772,
+      "sha256": "ced358e7ca6806e2b894b16c30406eb360a89bfa13daa8927b86d368e05aec1e"
+    },
+    "icons/icon-64.png": {
+      "bytes": 10315,
+      "sha256": "5a72d3997d96c31a12779ae50f772c4bf229725553259c5c832d2e18ce02279a"
+    },
+    "icons/loading-logo.png": {
+      "bytes": 10315,
+      "sha256": "5a72d3997d96c31a12779ae50f772c4bf229725553259c5c832d2e18ce02279a"
+    },
+    "images/lines-sheet0.webp": {
+      "bytes": 114614,
+      "sha256": "d3b5f368b7cbf4575e071cca662acad27ead2ed17c4a2f6ed3658cbf5f568c2e"
+    },
+    "images/lines-sheet1.webp": {
+      "bytes": 79200,
+      "sha256": "212844a68602e0fa5affbf396a0bdd87ffddf8b83d404b2cecf1ca0dde67b580"
+    },
+    "images/multif-sheet0.webp": {
+      "bytes": 76796,
+      "sha256": "32feba42c810688635fc47206a180f52fbacf153eea86136f6091362f01e6a0f"
+    },
+    "images/posidon-sheet0.webp": {
+      "bytes": 1012368,
+      "sha256": "1d31eb8fbc749db97e0d7b9caa067908dab1192308e1250b5f76ee8408773713"
+    },
+    "images/posidon-sheet1.webp": {
+      "bytes": 959364,
+      "sha256": "632e24bb496bc62c745c81fe07f3cc133f1703cbaa85ebf5d2c7b9ccb9104983"
+    },
+    "images/shared-0-sheet0.webp": {
+      "bytes": 284220,
+      "sha256": "0fdb93bd9cde7d6c43e55aa1b84a1951877ae99a01cd3d58e08d50fcbb6b8748"
+    },
+    "images/shared-0-sheet1.webp": {
+      "bytes": 920202,
+      "sha256": "9ebaecb0beb9be80cdba19deb04da518c0f94ef86a5d7304d2670564f5bc8f83"
+    },
+    "images/shared-0-sheet2.webp": {
+      "bytes": 113932,
+      "sha256": "556bd63213ad6c88723c0cad28aee1d60248f51c480ed386def7cc2d64ffcd56"
+    },
+    "images/shared-0-sheet3.webp": {
+      "bytes": 22894,
+      "sha256": "e7ec10fa0a5a74ef0ced51bb44d2d87017439b92a5140c7ab1e979eec2bc98ae"
+    },
+    "images/sprite3-sheet0.webp": {
+      "bytes": 290488,
+      "sha256": "cf75276aeccdfef44fa5686e0162ebb0525e048fc4769e8904f8d8b3652c2f15"
+    },
+    "images/symbol-sheet0.webp": {
+      "bytes": 120042,
+      "sha256": "151db3cbe87254b48ce0bb5a8f60b546b6391f254aa409f6b07591a2ee4aff76"
+    },
+    "images/tiledbackground-sheet0.webp": {
+      "bytes": 96392,
+      "sha256": "e704133550dc5eed9db04f97e7efc78ccd2fa3b834f8cc6aa19c3ad97e58c866"
+    },
+    "images/tiledbackground2-sheet0.webp": {
+      "bytes": 44,
+      "sha256": "33b53b259fff000554182c8880181942954b7ba7702ec7d312a543d04559bc85"
+    },
+    "images/xfre-sheet0.webp": {
+      "bytes": 252980,
+      "sha256": "b2237ecb1fb5ef1a5fa409c3daea0ba66cb343fb4118c148653ea725166fe362"
+    },
+    "images/xfre-sheet1.webp": {
+      "bytes": 245658,
+      "sha256": "cd0883b2be7d0f3ca4e70e04a2f2221e7171acb182a0940cc4061278a5b52931"
+    },
+    "images/xfre-sheet2.webp": {
+      "bytes": 40370,
+      "sha256": "53fcd70ac4703d3b2100c87368e81a5155f3ac7a972b3494ec0e1c96f2c9cff2"
+    },
+    "images/xfre-sheet3.webp": {
+      "bytes": 40262,
+      "sha256": "9fc1b70c53abd29af2647a56a15704cebde7b5705de336b9edc02d30b7f9dbc9"
+    },
+    "images/xfre-sheet4.webp": {
+      "bytes": 20172,
+      "sha256": "95b0ef5e773e77dff08e5e42fcd6feacfebe65d23153954f32f4d55ceaa42a1e"
+    },
+    "index.html": {
+      "bytes": 1461,
+      "sha256": "ca6e364e62968c591b350d02fc54b00a84fcb30c932361e1a9b9125108340e26"
+    },
+    "media/Adventure (full version) - AllenGrey.webm": {
+      "bytes": 1031953,
+      "sha256": "914e9aea8b76b1266b8fda31ed75b6a8cac83a26fa88a747a0b6c45b5125a818"
+    },
+    "media/Button.webm": {
+      "bytes": 33062,
+      "sha256": "ee407b410f72156eb36b6dfd1bddb6fc026927300b40822cca6677f7389288f2"
+    },
+    "media/drop.webm": {
+      "bytes": 34035,
+      "sha256": "4459a8a226d15a8ea9cc24557e184d373a679a9c6152fcba05a4d3f11c8fa78c"
+    },
+    "media/Epic Sea Battles.webm": {
+      "bytes": 1036441,
+      "sha256": "47a4f96e7ac832097af1feb71882ccfd67305469a71a66ba2892f456728a8d57"
+    },
+    "media/scatter.webm": {
+      "bytes": 90530,
+      "sha256": "4469c47dc2c8f11acb1adedd7869ef9a1cb375c810f33aec81f99ccf85105ba6"
+    },
+    "media/Stop1.webm": {
+      "bytes": 30718,
+      "sha256": "057057e3407c9c01ff045cc2f0af056aec2cd6d4bd0721f5d5cf25af55706524"
+    },
+    "media/Stop2.webm": {
+      "bytes": 29456,
+      "sha256": "57168c5b32600c22f0654f3d73b465cd575439a1003842b902e8cebdd5ccb8dc"
+    },
+    "media/Stop3.webm": {
+      "bytes": 30895,
+      "sha256": "3eb3e0686bbb81e23a763dcc19c7f5aac33c23c98aad76015b071c8ace29cb9c"
+    },
+    "media/Stop4.webm": {
+      "bytes": 27652,
+      "sha256": "46bac22a8c63489bafe942ad598df7848228e8354e7d7f45f6552a46e936ca5a"
+    },
+    "media/Stop5.webm": {
+      "bytes": 28368,
+      "sha256": "b8c630144da553a824095a20b530d0f47a16a56da7da09dbbfb0b443af4033d4"
+    },
+    "scripts/c3runtime.js": {
+      "bytes": 1654820,
+      "sha256": "a30cff47519945b35171ff00cc42222825f2ee9473eafbb6ac76b736215b7619"
+    },
+    "scripts/dispatchworker.js": {
+      "bytes": 4040,
+      "sha256": "3d0196c4a87e271f7f52ff0e00c03a82c351c73bad81619c28ebbe6816bcaaf7"
+    },
+    "scripts/jobworker.js": {
+      "bytes": 3020,
+      "sha256": "0415a4ba7564700a52cf68ad991dffa9741739885a065055d9b13bceecd457ef"
+    },
+    "scripts/main.js": {
+      "bytes": 135482,
+      "sha256": "81e10a60716b95d462644371a2c96829be822d48578b3ea07b91ad38f6ca2140"
+    },
+    "scripts/modernjscheck.js": {
+      "bytes": 117,
+      "sha256": "ef64682ba5879b8364db266f8a9945ee888bbe777cba56e2a69c7857b9831466"
+    },
+    "scripts/offlineclient.js": {
+      "bytes": 603,
+      "sha256": "dfaba9f1fa0ea22c703a1aba1dd90faa1abc07ca63b4d36830e61ec3fa18e34d"
+    },
+    "scripts/register-sw.js": {
+      "bytes": 303,
+      "sha256": "74ffbf6f2239666e2d741cf383c0a7d2e144df82ec09018203b925b147206953"
+    },
+    "scripts/supportcheck.js": {
+      "bytes": 2522,
+      "sha256": "a4326061780f8713a2d99d38b73d24fd3ad98b9477f6e6c812c07416e20077ea"
+    },
+    "server.js": {
+      "bytes": 3153,
+      "sha256": "860f07122271dfdf88c50883272e5b8d0c6ce344c6189d67e580b43508550732"
+    },
+    "style.css": {
+      "bytes": 1889,
+      "sha256": "699cf56c311e4e47c42e361cfcddf8826fa6dd56d7c4674a32fbaa5492518610"
+    },
+    "sw.js": {
+      "bytes": 6659,
+      "sha256": "a2b0b813ac138c53459e09d785374308b705c2aa3fa911a8050c78c62b695f35"
+    },
+    "workermain.js": {
+      "bytes": 3617,
+      "sha256": "6fee5864ae374cb4a15e724c135a3cb36f9cd5ac09ec04674aa70d96cb4f776d"
+    }
+  },
+  "declared_audio_checks": [
+    {
+      "path": "media/Stop1.webm",
+      "declared": 30718,
+      "actual": 30718,
+      "ok": true
+    },
+    {
+      "path": "media/Stop2.webm",
+      "declared": 29456,
+      "actual": 29456,
+      "ok": true
+    },
+    {
+      "path": "media/Stop3.webm",
+      "declared": 30895,
+      "actual": 30895,
+      "ok": true
+    },
+    {
+      "path": "media/Stop4.webm",
+      "declared": 27652,
+      "actual": 27652,
+      "ok": true
+    },
+    {
+      "path": "media/Stop5.webm",
+      "declared": 28368,
+      "actual": 28368,
+      "ok": true
+    },
+    {
+      "path": "media/drop.webm",
+      "declared": 34035,
+      "actual": 34035,
+      "ok": true
+    },
+    {
+      "path": "media/Button.webm",
+      "declared": 33062,
+      "actual": 33062,
+      "ok": true
+    },
+    {
+      "path": "media/scatter.webm",
+      "declared": 90530,
+      "actual": 90530,
+      "ok": true
+    },
+    {
+      "path": "media/Adventure (full version) - AllenGrey.webm",
+      "declared": 1031953,
+      "actual": 1031953,
+      "ok": true
+    },
+    {
+      "path": "media/Epic Sea Battles.webm",
+      "declared": 1036441,
+      "actual": 1036441,
+      "ok": true
+    }
+  ]
+}
