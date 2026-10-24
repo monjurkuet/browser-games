@@ -15,6 +15,9 @@ Educational collection of browser game ports for local study and reverse-enginee
 | [candy-kingdom-port](candy-kingdom-port) | Construct 3 | Direct port | 8141 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901226125/index.html) |
 | [dragon-blaze](dragon-blaze) | Construct 3 | Direct port | 8154 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/827969968/index.html) |
 | [shadow-catcher-port](shadow-catcher-port) | Custom HTML5/Canvas | Direct port | 8791 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/878054016/index.html) |
+| [gladiator-slot-port](gladiator-slot-port) | Phaser 3 / Canvas | Direct port | 8792 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/730070676/index.html) |
+| [magic-lady-slot-port](magic-lady-slot-port) | Phaser 3 / Canvas | Direct port | 8893 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901663093/index.html) |
+| [magic-ace-slot-port](magic-ace-slot-port) | Custom HTML5/Canvas | Clean-room | 8139 | ✅ Verified | JDB mechanics reference |
 
 ## Quick Start
 
@@ -46,18 +49,20 @@ browser-games/
 ├── zeus-slot-clone/
 │   └── c3-direct-port/         # Construct 3 direct port
 ├── dragon-blaze/               # Construct 3 direct port
-└── shadow-catcher-port/        # Custom HTML5/Canvas direct port
+├── shadow-catcher-port/        # Custom HTML5/Canvas direct port
+├── gladiator-slot-port/        # Phaser 3 / Canvas direct port
+├── magic-lady-slot-port/       # Phaser 3 / Canvas direct port
+└── magic-ace-slot-port/        # Custom HTML5/Canvas clean-room port
 ```
 
 Each game directory contains:
 - `server.js` — Node.js static server with correct MIME types
 - `index.html` — Game entry point
-- `data.json` — Game definition (reels, paytables, audio table, layout)
-- `scripts/` — Runtime scripts (c3runtime.js, main.js, workers)
-- `images/` — Sprite sheets (PNG/WebP)
-- `media/` — Audio (Opus in WebM / Ogg Vorbis)
-- `icons/` — PWA icons
-- `README.md` / `NOTES.md` — Game-specific documentation
+- `js/` or `scripts/` — Runtime code and configuration
+- `png/` or `images/` — Sprites, backgrounds, and UI artwork
+- `audio/` or `media/` — Game audio
+- `fonts/` — Bitmap or web fonts when used
+- `README.md` / `NOTES.md` — Game-specific documentation and provenance
 
 ## Verification Status
 

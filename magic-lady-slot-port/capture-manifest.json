@@ -1,0 +1,637 @@
+{
+  "audio/background.mp3": {
+    "bytes": 1815807,
+    "sha256": "8f333f3fa0c5e35473685a2ad02d59e6866c48e031325fcf498618edddd009fe",
+    "content_type": "audio/mpeg"
+  },
+  "audio/box_click.ogg": {
+    "bytes": 5233,
+    "sha256": "44393f31a72eb20a488dc5b4e36bab9da5cd82b12c6364927c9889d6b0b5b8ee",
+    "content_type": "audio/ogg"
+  },
+  "audio/button.wav": {
+    "bytes": 18566,
+    "sha256": "47a246e908d34ad53f478d8dc69b1aa195547b9c7a4be70d1d916e574d72f5dc",
+    "content_type": "audio/wav"
+  },
+  "audio/lose.wav": {
+    "bytes": 599804,
+    "sha256": "14965f372ef598ed2d1409b82c081cd0bcdba826b8c64431d20ddbd566da1a83",
+    "content_type": "audio/wav"
+  },
+  "audio/mixkit_win.wav": {
+    "bytes": 440444,
+    "sha256": "3a5e79d5109949cfb56646615a4eaeade9d0f15b843984199489e9ccfb8781cb",
+    "content_type": "audio/wav"
+  },
+  "audio/pointer_hit.ogg": {
+    "bytes": 5233,
+    "sha256": "44393f31a72eb20a488dc5b4e36bab9da5cd82b12c6364927c9889d6b0b5b8ee",
+    "content_type": "audio/ogg"
+  },
+  "audio/spin_sound.wav": {
+    "bytes": 1060168,
+    "sha256": "ae503ba1fbfaae713486827234b01476c0e5b247fe0fc56c185d5bc2defcccd4",
+    "content_type": "audio/wav"
+  },
+  "audio/win_coins.wav": {
+    "bytes": 285060,
+    "sha256": "7af446c3d8af3b8991b2936b969e451f03ef38dfa1545a3f35ef48e56a30f3d4",
+    "content_type": "audio/wav"
+  },
+  "fonts/lora_b50_0.png": {
+    "bytes": 23950,
+    "sha256": "cc6ca1d75646620e3894a6b3f437e8010cc7258884ac54511d8a031fcc780114",
+    "content_type": "image/png"
+  },
+  "fonts/lora_b50_0.xml": {
+    "bytes": 89944,
+    "sha256": "53afdf7ddfcf80c89580caed8e9c504dcb979a19a12d203235a44ac4062f4c21",
+    "content_type": "application/xml"
+  },
+  "fonts/lora_b50_1.png": {
+    "bytes": 141751,
+    "sha256": "e13aff8741720d28347e2c9d9d01acf638d39eb3cb20475727a2507577130a5d",
+    "content_type": "image/png"
+  },
+  "fonts/lora_b50_1.xml": {
+    "bytes": 89944,
+    "sha256": "53afdf7ddfcf80c89580caed8e9c504dcb979a19a12d203235a44ac4062f4c21",
+    "content_type": "application/xml"
+  },
+  "fonts/lora_b50_2.png": {
+    "bytes": 27123,
+    "sha256": "cb22a08bb40062b1d558a3c5c9b8912cf50b79701b9e0aef821b20289b5c1331",
+    "content_type": "image/png"
+  },
+  "fonts/lora_b50_2.xml": {
+    "bytes": 89944,
+    "sha256": "53afdf7ddfcf80c89580caed8e9c504dcb979a19a12d203235a44ac4062f4c21",
+    "content_type": "application/xml"
+  },
+  "fonts/lora_b50_3.png": {
+    "bytes": 138833,
+    "sha256": "d3eb681b86ae65983b5368a5994fc36bc8e49e3ab66ca089b4174fb05f6cda4b",
+    "content_type": "image/png"
+  },
+  "fonts/lora_b50_3.xml": {
+    "bytes": 89944,
+    "sha256": "53afdf7ddfcf80c89580caed8e9c504dcb979a19a12d203235a44ac4062f4c21",
+    "content_type": "application/xml"
+  },
+  "index.html": {
+    "bytes": 1359,
+    "sha256": "8981a9419a2d374c3dda42327b8d75351a797a5fcb1853c6f40dce9ea0ef784a",
+    "content_type": "text/html"
+  },
+  "js/mkutils.js": {
+    "bytes": 16477,
+    "sha256": "cf8ade12ff3025299e739c5497c7efc62882b4d121563b35cb7e391707d0395c",
+    "content_type": "text/javascript"
+  },
+  "js/phaser.js": {
+    "bytes": 7608466,
+    "sha256": "56d4154e9b267af29f460703c5abcccb9e39608b1506bd026be8a3cef2547bc6",
+    "content_type": "text/javascript"
+  },
+  "js/popups.js": {
+    "bytes": 3037,
+    "sha256": "5ba652c8c4b04fae1ffc96bf856f2dc22bdd6dda43b3127b10a6d10964b34235",
+    "content_type": "text/javascript"
+  },
+  "js/slotConfig_3x5.js": {
+    "bytes": 74422,
+    "sha256": "77fb84a001ae5a40d1de5e895d45f64f979df6b66e49d8a24de5fd5350346a2d",
+    "content_type": "text/javascript"
+  },
+  "js/slotGame.js": {
+    "bytes": 32299,
+    "sha256": "c020c3d86635c197b1ca850f9112f9e807ce130a1882ea2041c072f1b1d754f9",
+    "content_type": "text/javascript"
+  },
+  "js/slot_classes.js": {
+    "bytes": 61643,
+    "sha256": "c732b0a79d4682f68c1f24a78b35a1832644cadebc738bda6116d9d0bdffc53e",
+    "content_type": "text/javascript"
+  },
+  "js/state_machine.js": {
+    "bytes": 35054,
+    "sha256": "b476677f0ca0fd2ee81813e6844cc0f86f63db5f5453c1aa35d75e234bcb4f12",
+    "content_type": "text/javascript"
+  },
+  "png/Background_1.png": {
+    "bytes": 3714718,
+    "sha256": "7c8883af2b24eb162f75bf8d4be8380f6778ff616d5bac7b9182ab7d9e58860b",
+    "content_type": "image/png"
+  },
+  "png/BottomPanel.png": {
+    "bytes": 1867209,
+    "sha256": "bab6b305e231a47165178f4947a2da196036182d90aed10c9851af2c37d0a2e5",
+    "content_type": "image/png"
+  },
+  "png/ButtonAutoSpin.png": {
+    "bytes": 36151,
+    "sha256": "ba3e3ed454ac8a04147a4cf86f02d9fdc1cd577e4e96351863e97b87dd250191",
+    "content_type": "image/png"
+  },
+  "png/ButtonAutoSpinHover.png": {
+    "bytes": 34385,
+    "sha256": "ef0ca9daeba507beb71906514eff84466b3997bcd7a03fbedf518328f539ba11",
+    "content_type": "image/png"
+  },
+  "png/ButtonHold.png": {
+    "bytes": 24307,
+    "sha256": "405f10e85be57a55ab39027616c4e81240d09784d247fc139288ef6c59dbc824",
+    "content_type": "image/png"
+  },
+  "png/ButtonHoldOn.png": {
+    "bytes": 23691,
+    "sha256": "b3b5f872222d1d1723c8c9af615fe6d35c61ae5f245e0f6f4cd118e25446a8fb",
+    "content_type": "image/png"
+  },
+  "png/ButtonInfo.png": {
+    "bytes": 29943,
+    "sha256": "dcbffbc5f93f294c55e50a86de9c364264e311b6be2db77995d92c211c241514",
+    "content_type": "image/png"
+  },
+  "png/ButtonInfoHover.png": {
+    "bytes": 29142,
+    "sha256": "935a75e24ab107da94b4d8a3b2483ffd2eb58cf6dd45c928eb0088173fa7e2d8",
+    "content_type": "image/png"
+  },
+  "png/ButtonLine.png": {
+    "bytes": 8514,
+    "sha256": "f33299d9325d2da01449adc6f45dc1ae9662f05126c212934c083d9579539fc2",
+    "content_type": "image/png"
+  },
+  "png/ButtonLineHover.png": {
+    "bytes": 9303,
+    "sha256": "02d2b851cab4146b7685fe5cb15ad7d22d1d368c063265e1c52eb911e9a5a387",
+    "content_type": "image/png"
+  },
+  "png/ButtonMaxBet.png": {
+    "bytes": 35768,
+    "sha256": "609bdd6ca181c91b3fa93d093f7160a8d8e93ca436503af9de8822188cbcc31e",
+    "content_type": "image/png"
+  },
+  "png/ButtonMaxBetHover.png": {
+    "bytes": 34256,
+    "sha256": "1a1577d98b9f1b50bece8a4dc63b37a2208abcabca614b338520f0249d5172f4",
+    "content_type": "image/png"
+  },
+  "png/ButtonMenu.png": {
+    "bytes": 30793,
+    "sha256": "78d43d1c2f59e872aeb37c36daf9c1186fc243514745277c9af02a499c12ab48",
+    "content_type": "image/png"
+  },
+  "png/ButtonMenuHover.png": {
+    "bytes": 29666,
+    "sha256": "7032fca68dc50fe8a0660f9b1af9176bca665ae2f8a448b12f9545237856995f",
+    "content_type": "image/png"
+  },
+  "png/ButtonMinus.png": {
+    "bytes": 7964,
+    "sha256": "2a8f6d1ced53fb71c04e5552f43c41711bab90b59a488faf0fd120d4231f6e0b",
+    "content_type": "image/png"
+  },
+  "png/ButtonMinusHover.png": {
+    "bytes": 7706,
+    "sha256": "adeb9914ac6934e858e4799c5971146af9a5a9db8e76ed3dd626891f6c739b0c",
+    "content_type": "image/png"
+  },
+  "png/ButtonPlus.png": {
+    "bytes": 8338,
+    "sha256": "c3af02a4c0c652e93190b9c069364d0c84d5ac6bf35a265b6b98f5398ba6cf9b",
+    "content_type": "image/png"
+  },
+  "png/ButtonPlusHover.png": {
+    "bytes": 8057,
+    "sha256": "0c8d38596c25fef062e982a4fcc03a9bb5f714391b53dc7ec842366d777965ec",
+    "content_type": "image/png"
+  },
+  "png/ButtonRules.png": {
+    "bytes": 28611,
+    "sha256": "6df1dae9d71ead2f2a4c9d93fb66d4b7139c62a4b689131ad4e2a3d6373f4089",
+    "content_type": "image/png"
+  },
+  "png/ButtonRulesHover.png": {
+    "bytes": 28192,
+    "sha256": "012b85fd609832a912a22fed8fb21f63b37c7f56cf3874cfbac623807744baa2",
+    "content_type": "image/png"
+  },
+  "png/ButtonSettings.png": {
+    "bytes": 29197,
+    "sha256": "b981ff9a39fd12adb6d4c0559a65779b3937a405355214b9433f6abd466fb231",
+    "content_type": "image/png"
+  },
+  "png/ButtonSettingsHover.png": {
+    "bytes": 28649,
+    "sha256": "961794772faa2400ff4d0dc3f6fdcc09ab7786c2feabaca16e0999b5869d2279",
+    "content_type": "image/png"
+  },
+  "png/ButtonSpin.png": {
+    "bytes": 71680,
+    "sha256": "3103f6d8c330eab298f90004915c3f73f91df8bcad6d6d4e23799d7b26b11d74",
+    "content_type": "image/png"
+  },
+  "png/ButtonSpinHover.png": {
+    "bytes": 67538,
+    "sha256": "2fc216c2eb5358b2a514721b50edfa442a82837acd694f3aab58ab2b7f26db82",
+    "content_type": "image/png"
+  },
+  "png/CoinSheet.png": {
+    "bytes": 65302,
+    "sha256": "cafcd754ee4ab566170bdb859ccbf48a3744dfcab1ba96e9f39a6d09544ab829",
+    "content_type": "image/png"
+  },
+  "png/ColumnLeft.png": {
+    "bytes": 167632,
+    "sha256": "72ee0c0adc4a4a988cca10cd110d4355f3ee1be1da52eaf8b56cbf8203594e8a",
+    "content_type": "image/png"
+  },
+  "png/ColumnRight.png": {
+    "bytes": 165232,
+    "sha256": "7689891ad6b189ac954fde07f3962e3f2c2107621d14228534dcca8e09aacb08",
+    "content_type": "image/png"
+  },
+  "png/JPPanel.png": {
+    "bytes": 88427,
+    "sha256": "35a3194634bfe13d69cd61448d2692982e2bd8db356cf6f91207b39754d89717",
+    "content_type": "image/png"
+  },
+  "png/PanelBalance.png": {
+    "bytes": 57785,
+    "sha256": "9d646cd21028d074f804b1673abf5df21b72dbf2f39efc32670960e984a78c36",
+    "content_type": "image/png"
+  },
+  "png/PanelLines.png": {
+    "bytes": 52877,
+    "sha256": "c6f087f699a25f0d012ec1faeed36f04f6d4cb080aad22b8f599c6ae26137681",
+    "content_type": "image/png"
+  },
+  "png/PanelTotalBet.png": {
+    "bytes": 57785,
+    "sha256": "9d646cd21028d074f804b1673abf5df21b72dbf2f39efc32670960e984a78c36",
+    "content_type": "image/png"
+  },
+  "png/PanelWin.png": {
+    "bytes": 52877,
+    "sha256": "c6f087f699a25f0d012ec1faeed36f04f6d4cb080aad22b8f599c6ae26137681",
+    "content_type": "image/png"
+  },
+  "png/SlotMachine_3x5.png": {
+    "bytes": 332782,
+    "sha256": "95b4744aa0a411e1c1c04965598bef3336bf313487cbe38289c5ae7b9066cda6",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Club.png": {
+    "bytes": 51127,
+    "sha256": "348fda232fba8f654ce761b6cb742262e01af57f3026d7d4fb701a0cac6ed44a",
+    "content_type": "image/png"
+  },
+  "png/Symbols/DarkGirl.png": {
+    "bytes": 111008,
+    "sha256": "d440dcb3f7405a7ddf6ea0e1b976157062aefe87b4e393b1067e51af2eef0c56",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Diamond.png": {
+    "bytes": 44972,
+    "sha256": "ed1c0768bf2c91096b21b40d1565be0e41e286c046fb54330e0c7d3e3ccaf6be",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Heart.png": {
+    "bytes": 46432,
+    "sha256": "1ee64a5c26bbbf2a0fcdbc3c68bde7b32985dbc01793efc393144516f3446df6",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Jackpot.png": {
+    "bytes": 104814,
+    "sha256": "3237375a15c9e2ce84281d637e0a6c261be28f32d8026ff164f17ad8b745c464",
+    "content_type": "image/png"
+  },
+  "png/Symbols/LightGirl.png": {
+    "bytes": 113389,
+    "sha256": "178a60ab768d5b6bfc6f75520ee2daa234c3ab5274953bf29849ef3a0b276285",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Scatter.png": {
+    "bytes": 101987,
+    "sha256": "1d259e095c737723866129e3378054b46fc02707dc0ebea4398c4e50453a0825",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Spade.png": {
+    "bytes": 47580,
+    "sha256": "3d1ba4daf4346ca42ee2199c4137f8bed82ac8b85a3784dcf9636d90bc2f43d8",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Wild.png": {
+    "bytes": 96528,
+    "sha256": "b3a1292d78677277ca088da78f0665a52aca6f9b9a9c7a1ab4d20925e05a5148",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/ClubBlurred.png": {
+    "bytes": 74558,
+    "sha256": "2c8d3ce90183cd56e28e344fdefc50e30236329f57cda8d940f550dbc92fa8ef",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/DarkGirlBlurred.png": {
+    "bytes": 88763,
+    "sha256": "ec2289f0edc2c120d790361a80c965cbe347dfe34dfb47da8e5f40a979c1aaf4",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/DiamondBlurred.png": {
+    "bytes": 72004,
+    "sha256": "4c9a38b11658f1b5ff4a6b93680c634b743ecdd6b0630c03d5239693265c2917",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/HeartBlurred.png": {
+    "bytes": 74078,
+    "sha256": "4a0b319039d16ff4e5c22b8a33b8cdce82b69e7c7efbcacb9143c253b445e4e4",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/JackpotBlurred.png": {
+    "bytes": 92939,
+    "sha256": "4645b63409ef559b3cb5d75c50d1af9f9d356d37fa8ca356d160bee43365bec1",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/LightGirlBlurred.png": {
+    "bytes": 90628,
+    "sha256": "b9066a825189050ca9afbd20fc28bb7bc66895b9e8a59449fdfea104f52ebd8a",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/ScatterBlurred.png": {
+    "bytes": 91560,
+    "sha256": "2cebf540828b67f92175d5b01401462b94bf4d9adbfaa9f36489e1d853b22c5f",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/SpadeBlurred.png": {
+    "bytes": 74133,
+    "sha256": "49400976ec21902ad6724b749efecb1c269984fad30449d9474827936a9743c1",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/WildBlurred.png": {
+    "bytes": 85352,
+    "sha256": "8b93ac33cd4eedb93cd91e4dfa5b566676c3578ca736ba2e45a16a7ee171ff70",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/ClubSheet.png": {
+    "bytes": 747032,
+    "sha256": "9e97fcda341cadbd49e5621208fcc016cafd9f87923a26fb22f97ca5fdd0517d",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/DarkGirlSheet.png": {
+    "bytes": 1696342,
+    "sha256": "4c7de10f02f9b2b33ad8e1cc984816ddadb41e3c54f66ff258da4ec06e9aeb09",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/DiamondSheet.png": {
+    "bytes": 646319,
+    "sha256": "a71fc4cdb95a731a6f68f50ea7d5fa5259a5df7031a92e15ffa5e51c1e5f72ea",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/HeartSheet.png": {
+    "bytes": 709566,
+    "sha256": "e0a83bba85ec385c67e39e59a26e781efc0103e5f42dd677573bc25d09686cb5",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/JackpotSheet.png": {
+    "bytes": 1979839,
+    "sha256": "b41aaeb8d7742ff4ea5a4933991b4d47d8776ecbfa988ca6c1e15527d09c6eeb",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/LightGirlSheet.png": {
+    "bytes": 1701076,
+    "sha256": "7f34fd090df6164788cd57afdb25bb1f2c4ea0f113a7523c7cbdb0bc60216a33",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/ScatterSheet.png": {
+    "bytes": 1861975,
+    "sha256": "c47b730650cf438f65b90c4ff2b9842b019ca157e0db0c6c5c885fb493308888",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/SpadeSheet.png": {
+    "bytes": 689555,
+    "sha256": "16eb618d613689a5dbe5e08cb862b0071f9ae93e42cb5f75624b9334ccf6fec2",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/WildSheet.png": {
+    "bytes": 1781505,
+    "sha256": "6756bd62b1235ca4f482b979ef2e77e6584ddade991396206ef2b9e262ba232c",
+    "content_type": "image/png"
+  },
+  "png/TopPanel.png": {
+    "bytes": 674884,
+    "sha256": "0670bd45e8cb0bb976fe3b157c1b58d15e610673b0f144773ce89fd4a7b61fe3",
+    "content_type": "image/png"
+  },
+  "png/TopShadow.png": {
+    "bytes": 118678,
+    "sha256": "691af9c3158cbec91988cae6a3f5eb51f1596a03145568027d3b064612bb7b33",
+    "content_type": "image/png"
+  },
+  "png/gui/AboutPanel.png": {
+    "bytes": 423234,
+    "sha256": "7e2a0241f7227a61f74a0498e7f486be77d19c9cd0e3002c148867c21123f99f",
+    "content_type": "image/png"
+  },
+  "png/gui/ButtonOff.png": {
+    "bytes": 31342,
+    "sha256": "440cd881c6a041c678afae87d60666abdd5f4ffaa2a9d40954279a4cacc311b5",
+    "content_type": "image/png"
+  },
+  "png/gui/ButtonOn.png": {
+    "bytes": 30990,
+    "sha256": "2b833d2f03c51ed6626a631cf21563291091d4267022feb251c4f3b005170756",
+    "content_type": "image/png"
+  },
+  "png/gui/ExitButton.png": {
+    "bytes": 18287,
+    "sha256": "7d6c570632378b0cb7b9d9108d096629be3e9cdb8287d19023515319bb29fc59",
+    "content_type": "image/png"
+  },
+  "png/gui/ExitButtonHover.png": {
+    "bytes": 17800,
+    "sha256": "029a01f76ec365c7302ffe1977bc148c735ec6de715e3a2b10ab6c1c6ff80dea",
+    "content_type": "image/png"
+  },
+  "png/gui/ExtraLongButton.png": {
+    "bytes": 72991,
+    "sha256": "c238b38fb941df6a8fac67f730e3640aa9106a81f247b5f2e55f8d2a3590ced6",
+    "content_type": "image/png"
+  },
+  "png/gui/ExtraLongButtonHover.png": {
+    "bytes": 68777,
+    "sha256": "bfe45f794a56597d1ef602e84d47b058cfa71a8a24fa11109ac96cd00d2635cf",
+    "content_type": "image/png"
+  },
+  "png/gui/FreeSpinPanel.png": {
+    "bytes": 180585,
+    "sha256": "a4daee3d53a05782eebcc1828bc5dfd0dffd381a69d717750080184a36ec5173",
+    "content_type": "image/png"
+  },
+  "png/gui/HugeWinPanel.png": {
+    "bytes": 213303,
+    "sha256": "0d1fc97e103cace90c68c1365076f109970baf62eb3b1515857872719f74a9e6",
+    "content_type": "image/png"
+  },
+  "png/gui/InfoPanel.png": {
+    "bytes": 611702,
+    "sha256": "9fc544b9ef2487ad1b73e6f0b22e7053414ea7736efe1d806daeb90c97fdf578",
+    "content_type": "image/png"
+  },
+  "png/gui/JackpotWinPanel.png": {
+    "bytes": 252556,
+    "sha256": "04e501ca5b5ea8328b5f79650d5c93e4d512218815177c3bde59111e63d510d0",
+    "content_type": "image/png"
+  },
+  "png/gui/Logo.png": {
+    "bytes": 30375,
+    "sha256": "839c8ffc0ee6a171233aea0f0f5c7c7c11115ee29103a97c0dd11d273358e77f",
+    "content_type": "image/png"
+  },
+  "png/gui/LongButton.png": {
+    "bytes": 58338,
+    "sha256": "9ab53a0d98b542a3cbc7a8364a325b58a04a1f398884dbb0e7c57740e2fba985",
+    "content_type": "image/png"
+  },
+  "png/gui/LongButtonHover.png": {
+    "bytes": 55448,
+    "sha256": "731b51a044d8688c68843d4c7dc0df61c645c2b15034a20089278f60c92d22bf",
+    "content_type": "image/png"
+  },
+  "png/gui/MegaWinPanel.png": {
+    "bytes": 200808,
+    "sha256": "a1a6b4f626237acb91fd08e6f8000443f20c095be2226b6fe4c8944ededea7b8",
+    "content_type": "image/png"
+  },
+  "png/gui/MessagePanel.png": {
+    "bytes": 271971,
+    "sha256": "cd7a54b3f3714cc008503c578d223aeecf504691236b7b7e505e6059eaef8a16",
+    "content_type": "image/png"
+  },
+  "png/gui/MusicOff.png": {
+    "bytes": 5994,
+    "sha256": "6c5554b5735c6c40bba722cbb92cc7643f61b81a301f2ee128e8095f2d99444e",
+    "content_type": "image/png"
+  },
+  "png/gui/MusicOn.png": {
+    "bytes": 5381,
+    "sha256": "7c7a259195a629fc2b7156ffe561104e1e51c81d65bf87111ba495f3395414d4",
+    "content_type": "image/png"
+  },
+  "png/gui/NextButton.png": {
+    "bytes": 32782,
+    "sha256": "3fe3b391eec749b1523dbe8a2c08b1de5fa5b31f1e32135ea9b5098b6a60b143",
+    "content_type": "image/png"
+  },
+  "png/gui/NextButtonHover.png": {
+    "bytes": 33177,
+    "sha256": "608ff0c2b555ec8593084d1686e1dff449aa769490afbd3f068f55ccde8df860",
+    "content_type": "image/png"
+  },
+  "png/gui/PayLinesTable.png": {
+    "bytes": 275578,
+    "sha256": "115848ef9221c974a0b37ce3adbaed66df4361460c39fbdc08770f1988a88d2d",
+    "content_type": "image/png"
+  },
+  "png/gui/PrevButton.png": {
+    "bytes": 32836,
+    "sha256": "6c1bdc53066b814d8f3a582d28bf611fe957ad15a9c3fb53535f8d907be1946a",
+    "content_type": "image/png"
+  },
+  "png/gui/PrevButtonHover.png": {
+    "bytes": 31891,
+    "sha256": "b21cd39a200ec435e2af36ee5a58674c6a2dd8ed0a7b65e9eba77bdc3ac785e9",
+    "content_type": "image/png"
+  },
+  "png/gui/SettingsPanel.png": {
+    "bytes": 548153,
+    "sha256": "79c87a801358c21ea185e2525a4367e6de8efd99ecb10ca6a02ee15333ca1ead",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallButton.png": {
+    "bytes": 46855,
+    "sha256": "a3c0157c061b8d7cee11d6599bcfb6d4a3853949157f0436e4c772c7b3fddea3",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallButtonHover.png": {
+    "bytes": 45036,
+    "sha256": "673365d8a1f179589fc1baaaeff5ce3531032a9705a04802ee3d152d52495efb",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallMessagePanel.png": {
+    "bytes": 155764,
+    "sha256": "d6457007323c0b4f511b6c18d8763e350960cebed521021a9e14c4aacf669981",
+    "content_type": "image/png"
+  },
+  "png/gui/SoundOff.png": {
+    "bytes": 5766,
+    "sha256": "a494f39f0e1961222bbbc53ca3693feb35e13b5101efe3198395c5c76cba35ae",
+    "content_type": "image/png"
+  },
+  "png/gui/SoundOn.png": {
+    "bytes": 5925,
+    "sha256": "bb969b319c548182b72635c69a1b667df09df275ed68bea00e1445c1593664da",
+    "content_type": "image/png"
+  },
+  "png/gui/TitleMajorSymbols.png": {
+    "bytes": 35980,
+    "sha256": "ed0a118dded75ec626abf1bed6781251919241d6b77c7cc7d95bab7804ad0026",
+    "content_type": "image/png"
+  },
+  "png/gui/TitleMinorSymbols.png": {
+    "bytes": 33724,
+    "sha256": "db5ee1bc0e0f512d28a03368e45f6d8d0e47b695691308882312f6ff161d935e",
+    "content_type": "image/png"
+  },
+  "png/gui/TitlePayLines.png": {
+    "bytes": 23540,
+    "sha256": "aa33832c2fb115a51f998be851d851c01fdfb712934fcf303a43268321dcc76c",
+    "content_type": "image/png"
+  },
+  "png/gui/TitleRules.png": {
+    "bytes": 16381,
+    "sha256": "d2bf197cac6b8ee279c2f2ce4b80ffec015e24ad909a7bc3b281acbc429952b1",
+    "content_type": "image/png"
+  },
+  "png/gui/TitleSpecialSymbols.png": {
+    "bytes": 36998,
+    "sha256": "fe7ae775f11a80e3e7f27f264add7bc045fdc85b6bcf7912ad4871da20f23353",
+    "content_type": "image/png"
+  },
+  "png/gui/whiteBkg.png": {
+    "bytes": 933,
+    "sha256": "6036869455af787d321e71666275eb9fe79b066d6a9ba8c77590f18fce3851c9",
+    "content_type": "image/png"
+  },
+  "png/wheel/CenterPin.png": {
+    "bytes": 67939,
+    "sha256": "80d7743d98e5ef5cad7a6ce2b6f10af3f1a0bc5e781481c8fd773af53f464986",
+    "content_type": "image/png"
+  },
+  "png/wheel/LightSector_6.png": {
+    "bytes": 23930,
+    "sha256": "bf191bfe342c2c33e8fc768712c5452bec90568270bf45c7a1d8822c21f28759",
+    "content_type": "image/png"
+  },
+  "png/wheel/Pointer.png": {
+    "bytes": 9686,
+    "sha256": "a6cdeb7d1fb8aecb6d7ce001f2b53849b7caefd6d58cc902b114b91fc1624763",
+    "content_type": "image/png"
+  },
+  "png/wheel/PointerBorder.png": {
+    "bytes": 24979,
+    "sha256": "b8a1ec8fcc3cb356b882c4d2584c1e426336b1ae383d54499b958e9e36f0a627",
+    "content_type": "image/png"
+  },
+  "png/wheel/SpinWheel_6.png": {
+    "bytes": 88619,
+    "sha256": "18f58f573ab01fc9c15b2f8bb33ead76428687f19693213a1c50827129adc327",
+    "content_type": "image/png"
+  },
+  "png/wheel/WheelBorder.png": {
+    "bytes": 355060,
+    "sha256": "0493d446ef20be87bfa2e062b78242fefc87b12dfb1181c543ebf461f37d2594",
+    "content_type": "image/png"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "url": "http://127.0.0.1:18893/",
+  "title": "",
+  "before": {
+    "state": "IddleState",
+    "balance": "100000",
+    "bet": "20",
+    "win": "0"
+  },
+  "samples": [
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "NormalSpinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    },
+    {
+      "state": "WinState",
+      "balance": "99980",
+      "bet": "20",
+      "win": "0"
+    }
+  ],
+  "audit": {
+    "errors": [],
+    "rejections": [],
+    "consoleErrors": []
+  },
+  "canvas": {
+    "width": 784,
+    "height": 469,
+    "payloadLength": 12154,
+    "visibility": "visible"
+  },
+  "resources": [
+    "http://127.0.0.1:18893/js/phaser.js",
+    "http://127.0.0.1:18893/js/mkutils.js",
+    "http://127.0.0.1:18893/js/slotConfig_3x5.js",
+    "http://127.0.0.1:18893/js/state_machine.js",
+    "http://127.0.0.1:18893/js/popups.js",
+    "http://127.0.0.1:18893/js/slot_classes.js",
+    "http://127.0.0.1:18893/js/slotGame.js",
+    "http://127.0.0.1:18893/png/Background_1.png",
+    "http://127.0.0.1:18893/png/SlotMachine_3x5.png",
+    "http://127.0.0.1:18893/png/TopPanel.png",
+    "http://127.0.0.1:18893/png/BottomPanel.png",
+    "http://127.0.0.1:18893/png/JPPanel.png",
+    "http://127.0.0.1:18893/png/ButtonPlus.png",
+    "http://127.0.0.1:18893/png/ButtonPlusHover.png",
+    "http://127.0.0.1:18893/png/ButtonMinus.png",
+    "http://127.0.0.1:18893/png/ButtonMinusHover.png",
+    "http://127.0.0.1:18893/png/PanelTotalBet.png",
+    "http://127.0.0.1:18893/png/PanelWin.png",
+    "http://127.0.0.1:18893/png/PanelLines.png",
+    "http://127.0.0.1:18893/png/PanelBalance.png",
+    "http://127.0.0.1:18893/png/ButtonMaxBet.png",
+    "http://127.0.0.1:18893/png/ButtonMaxBetHover.png",
+    "http://127.0.0.1:18893/png/ButtonSpin.png",
+    "http://127.0.0.1:18893/png/ButtonSpinHover.png",
+    "http://127.0.0.1:18893/png/ButtonAutoSpin.png",
+    "http://127.0.0.1:18893/png/ButtonAutoSpinHover.png",
+    "http://127.0.0.1:18893/png/ButtonLine.png",
+    "http://127.0.0.1:18893/png/ButtonLineHover.png",
+    "http://127.0.0.1:18893/png/ButtonHold.png",
+    "http://127.0.0.1:18893/png/ButtonHoldOn.png",
+    "http://127.0.0.1:18893/png/ColumnLeft.png",
+    "http://127.0.0.1:18893/png/ColumnRight.png",
+    "http://127.0.0.1:18893/png/TopShadow.png",
+    "http://127.0.0.1:18893/png/ButtonMenu.png",
+    "http://127.0.0.1:18893/png/ButtonMenuHover.png",
+    "http://127.0.0.1:18893/png/ButtonInfo.png",
+    "http://127.0.0.1:18893/png/ButtonInfoHover.png",
+    "http://127.0.0.1:18893/png/ButtonSettings.png",
+    "http://127.0.0.1:18893/png/ButtonSettingsHover.png",
+    "http://127.0.0.1:18893/png/ButtonRules.png",
+    "http://127.0.0.1:18893/favicon.ico",
+    "http://127.0.0.1:18893/favicon.ico",
+    "http://127.0.0.1:18893/png/ButtonRulesHover.png",
+    "http://127.0.0.1:18893/png/gui/ButtonOn.png",
+    "http://127.0.0.1:18893/png/gui/ButtonOff.png",
+    "http://127.0.0.1:18893/png/gui/MessagePanel.png",
+    "http://127.0.0.1:18893/png/gui/SmallMessagePanel.png",
+    "http://127.0.0.1:18893/png/gui/AboutPanel.png",
+    "http://127.0.0.1:18893/png/gui/SettingsPanel.png",
+    "http://127.0.0.1:18893/png/gui/FreeSpinPanel.png",
+    "http://127.0.0.1:18893/png/gui/HugeWinPanel.png",
+    "http://127.0.0.1:18893/png/gui/MegaWinPanel.png",
+    "http://127.0.0.1:18893/png/gui/PayLinesTable.png",
+    "http://127.0.0.1:18893/png/gui/TitlePayLines.png",
+    "http://127.0.0.1:18893/png/gui/TitleMinorSymbols.png",
+    "http://127.0.0.1:18893/png/gui/TitleMajorSymbols.png",
+    "http://127.0.0.1:18893/png/gui/TitleRules.png",
+    "http://127.0.0.1:18893/png/gui/TitleSpecialSymbols.png",
+    "http://127.0.0.1:18893/png/gui/Logo.png",
+    "http://127.0.0.1:18893/png/gui/ExitButton.png",
+    "http://127.0.0.1:18893/png/gui/ExitButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/LongButton.png",
+    "http://127.0.0.1:18893/png/gui/LongButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/ExtraLongButton.png",
+    "http://127.0.0.1:18893/png/gui/ExtraLongButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/SmallButton.png",
+    "http://127.0.0.1:18893/png/gui/SmallButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/InfoPanel.png",
+    "http://127.0.0.1:18893/png/gui/JackpotWinPanel.png",
+    "http://127.0.0.1:18893/png/gui/whiteBkg.png",
+    "http://127.0.0.1:18893/png/gui/NextButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/NextButton.png",
+    "http://127.0.0.1:18893/png/gui/PrevButtonHover.png",
+    "http://127.0.0.1:18893/png/gui/PrevButton.png",
+    "http://127.0.0.1:18893/png/gui/SoundOn.png",
+    "http://127.0.0.1:18893/png/gui/SoundOff.png",
+    "http://127.0.0.1:18893/png/gui/MusicOn.png",
+    "http://127.0.0.1:18893/png/gui/MusicOff.png",
+    "http://127.0.0.1:18893/png/wheel/SpinWheel_6.png",
+    "http://127.0.0.1:18893/png/wheel/CenterPin.png",
+    "http://127.0.0.1:18893/png/wheel/LightSector_6.png",
+    "http://127.0.0.1:18893/png/wheel/Pointer.png",
+    "http://127.0.0.1:18893/png/wheel/WheelBorder.png",
+    "http://127.0.0.1:18893/png/wheel/PointerBorder.png",
+    "http://127.0.0.1:18893/png/Symbols/Heart.png",
+    "http://127.0.0.1:18893/png/Symbols/Diamond.png",
+    "http://127.0.0.1:18893/png/Symbols/LightGirl.png",
+    "http://127.0.0.1:18893/png/Symbols/Club.png",
+    "http://127.0.0.1:18893/png/Symbols/Spade.png",
+    "http://127.0.0.1:18893/png/Symbols/DarkGirl.png",
+    "http://127.0.0.1:18893/png/Symbols/Wild.png",
+    "http://127.0.0.1:18893/png/Symbols/Scatter.png",
+    "http://127.0.0.1:18893/png/Symbols/Jackpot.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/HeartBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/DiamondBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/LightGirlBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/ClubBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/SpadeBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/DarkGirlBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/WildBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/ScatterBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsBlurred/JackpotBlurred.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/HeartSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/DiamondSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/LightGirlSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/ClubSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/SpadeSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/DarkGirlSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/WildSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/ScatterSheet.png",
+    "http://127.0.0.1:18893/png/SymbolsSheet/JackpotSheet.png",
+    "http://127.0.0.1:18893/png/CoinSheet.png",
+    "http://127.0.0.1:18893/audio/box_click.ogg",
+    "http://127.0.0.1:18893/audio/mixkit_win.wav",
+    "http://127.0.0.1:18893/audio/button.wav",
+    "http://127.0.0.1:18893/audio/spin_sound.wav",
+    "http://127.0.0.1:18893/audio/win_coins.wav",
+    "http://127.0.0.1:18893/audio/lose.wav",
+    "http://127.0.0.1:18893/audio/background.mp3",
+    "http://127.0.0.1:18893/audio/pointer_hit.ogg",
+    "http://127.0.0.1:18893/fonts/lora_b50_0.png",
+    "http://127.0.0.1:18893/fonts/lora_b50_0.xml",
+    "http://127.0.0.1:18893/fonts/lora_b50_1.png",
+    "http://127.0.0.1:18893/fonts/lora_b50_1.xml",
+    "http://127.0.0.1:18893/fonts/lora_b50_2.png",
+    "http://127.0.0.1:18893/fonts/lora_b50_2.xml",
+    "http://127.0.0.1:18893/fonts/lora_b50_3.png",
+    "http://127.0.0.1:18893/fonts/lora_b50_3.xml"
+  ]
+}
