@@ -1,8 +1,6 @@
 # browser-games
 
-Educational collection of Construct 3 and Godot game ports for local study and reverse-engineering reference.
-
-> **⚠️ Legal Notice**: Game assets (art, audio, data.json, game logic) are copyrighted by their original authors. This repository contains **local study copies only** — not redistributable asset sets. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Educational collection of browser game ports for local study and reverse-engineering reference.
 
 ## Games
 
@@ -15,7 +13,7 @@ Educational collection of Construct 3 and Godot game ports for local study and r
 | [walking-death](walking-death) | Construct 3 | Direct port | 8619 | ✅ Verified | Pas Games (Envato) |
 | [zeus-slot-clone](zeus-slot-clone/c3-direct-port) | Construct 3 | Direct port | 8124 | ✅ Verified | [CodeCanyon](https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875) |
 | [candy-kingdom-port](candy-kingdom-port) | Construct 3 | Direct port | 8141 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901226125/index.html) |
-| [dragon-blaze](dragon-blaze) | Godot 4 (C#) | Clean-room rebuild | 8154 | 🔧 In progress | [Envato](https://previews.customer.envatousercontent.com/files/827969968/index.html) |
+| [dragon-blaze](dragon-blaze) | Construct 3 | Direct port | 8154 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/827969968/index.html) |
 | [shadow-catcher-port](shadow-catcher-port) | Custom HTML5/Canvas | Direct port | 8791 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/878054016/index.html) |
 
 ## Quick Start
@@ -47,7 +45,7 @@ browser-games/
 ├── walking-death/              # Construct 3 direct port (in game/ subdir)
 ├── zeus-slot-clone/
 │   └── c3-direct-port/         # Construct 3 direct port
-├── dragon-blaze/               # Godot 4 C# clean-room rebuild
+├── dragon-blaze/               # Construct 3 direct port
 └── shadow-catcher-port/        # Custom HTML5/Canvas direct port
 ```
 
