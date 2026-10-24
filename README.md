@@ -15,6 +15,7 @@ Educational collection of Construct 3 and Godot game ports for local study and r
 | [walking-death](walking-death) | Construct 3 | Direct port | 8619 | ✅ Verified | Pas Games (Envato) |
 | [zeus-slot-clone](zeus-slot-clone/c3-direct-port) | Construct 3 | Direct port | 8124 | ✅ Verified | [CodeCanyon](https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875) |
 | [dragon-blaze](dragon-blaze) | Godot 4 (C#) | Clean-room rebuild | 8154 | 🔧 In progress | [Envato](https://previews.customer.envatousercontent.com/files/827969968/index.html) |
+| [shadow-catcher-port](shadow-catcher-port) | Custom HTML5/Canvas | Direct port | 8791 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/878054016/index.html) |
 
 ## Quick Start
 

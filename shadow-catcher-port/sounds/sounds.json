@@ -1,0 +1,520 @@
+{
+  "sprite": {
+    "bgm_freespin": [
+      0,
+      108000,
+      true
+    ],
+    "bgm_main": [
+      108350,
+      108000,
+      true
+    ],
+    "bgm_winlevel_big": [
+      216700,
+      4535.260770975056
+    ],
+    "bgm_winlevel_epic": [
+      221585.26077097506,
+      3854.625850340136
+    ],
+    "bgm_winlevel_max": [
+      225789.88662131518,
+      3854.625850340136
+    ],
+    "bgm_winlevel_mega": [
+      229994.51247165533,
+      4413.333333333333
+    ],
+    "bgm_winlevel_superwin": [
+      234757.84580498867,
+      4413.333333333333
+    ],
+    "jng_intro_fs": [
+      239521.179138322,
+      6000
+    ],
+    "sfx_anticipation": [
+      245871.17913832198,
+      9523.832199546485,
+      true
+    ],
+    "sfx_anticipation_start": [
+      255745.01133786846,
+      1000
+    ],
+    "sfx_bigwin_coinloop": [
+      257095.01133786846,
+      138.63945578231292,
+      true
+    ],
+    "sfx_btn_general": [
+      257583.6507936508,
+      1073.8321995464853
+    ],
+    "sfx_btn_spin": [
+      259007.4829931973,
+      1073.8321995464853
+    ],
+    "sfx_fs_respins": [
+      260431.31519274373,
+      4062.4943310657595
+    ],
+    "sfx_multiplier_combine_a": [
+      264843.8095238095,
+      1208.843537414966
+    ],
+    "sfx_multiplier_combine_b": [
+      266402.6530612245,
+      1045.8503401360545
+    ],
+    "sfx_multiplier_explosion_a": [
+      267798.5034013606,
+      769.2743764172335
+    ],
+    "sfx_multiplier_explosion_b": [
+      268917.77777777775,
+      2046.6439909297053
+    ],
+    "sfx_multiplier_explosion_c": [
+      271314.42176870746,
+      1202.2675736961453
+    ],
+    "sfx_multiplier_landing": [
+      272866.6893424036,
+      2027.7777777777776
+    ],
+    "sfx_multiplier_reset": [
+      275244.4671201814,
+      584.421768707483
+    ],
+    "sfx_multiplier_up": [
+      276178.8888888889,
+      1499.251700680272
+    ],
+    "sfx_multiplier_update": [
+      278028.1405895692,
+      1607.8231292517007
+    ],
+    "sfx_multiplier_win": [
+      279985.9637188209,
+      3791.6780045351475
+    ],
+    "sfx_reel_stop_1": [
+      284127.64172335604,
+      338.5034013605442
+    ],
+    "sfx_reel_stop_2": [
+      284816.14512471657,
+      246.66666666666669
+    ],
+    "sfx_reel_stop_3": [
+      285412.8117913832,
+      240.99773242630386
+    ],
+    "sfx_reel_stop_4": [
+      286003.8095238095,
+      241.97278911564626
+    ],
+    "sfx_reel_stop_5": [
+      286595.78231292515,
+      239.88662131519274
+    ],
+    "sfx_royals_landing": [
+      287185.66893424036,
+      1199.2290249433106
+    ],
+    "sfx_scatter_reveal": [
+      288734.89795918367,
+      1487.3696145124718
+    ],
+    "sfx_scatter_stop_1": [
+      290572.26757369615,
+      1500
+    ],
+    "sfx_scatter_stop_2": [
+      292422.26757369615,
+      1500
+    ],
+    "sfx_scatter_stop_3": [
+      294272.26757369615,
+      1500
+    ],
+    "sfx_scatter_stop_4": [
+      296122.26757369615,
+      1500
+    ],
+    "sfx_scatter_stop_5": [
+      297972.26757369615,
+      1500
+    ],
+    "sfx_scatter_win": [
+      299822.26757369615,
+      1992.9705215419501
+    ],
+    "sfx_scatter_win_v2": [
+      302165.2380952381,
+      2661.224489795918
+    ],
+    "sfx_superfreespin": [
+      305176.462585034,
+      6000
+    ],
+    "sfx_symbols_landing": [
+      311526.462585034,
+      1202.5850340136055
+    ],
+    "sfx_transition": [
+      313079.04761904763,
+      8000
+    ],
+    "sfx_wild_explode": [
+      321429.0476190476,
+      1838.9569160997733
+    ],
+    "sfx_winlevel_end": [
+      323618.0045351474,
+      2316.7800453514737
+    ],
+    "sfx_winlevel_nice": [
+      326284.7845804989,
+      1474.2857142857142
+    ],
+    "sfx_winlevel_small": [
+      328109.0702947846,
+      2316.7800453514737
+    ],
+    "sfx_winlevel_standard": [
+      330775.85034013604,
+      1250
+    ],
+    "sfx_winlevel_substantial": [
+      332375.8503401361,
+      2490.3174603174602
+    ],
+    "sfx_youwon_panel": [
+      335216.1678004535,
+      2316.7800453514737
+    ],
+    "tumble_win_1": [
+      337882.947845805,
+      996.2358276643992
+    ],
+    "tumble_win_2": [
+      339229.18367346935,
+      1134.671201814059
+    ],
+    "tumble_win_3": [
+      340713.85487528343,
+      1134.829931972789
+    ],
+    "tumble_win_4": [
+      342198.6848072563,
+      998.8208616780046
+    ],
+    "tumble_win_5": [
+      343547.50566893426,
+      989.6145124716553
+    ]
+  },
+  "src": [
+    "./sounds/custom/ea8d9b1b-d7c7-465d-a9bb-2d29aa5abaf3/bank.ogg",
+    "./sounds/custom/ea8d9b1b-d7c7-465d-a9bb-2d29aa5abaf3/bank.mp3"
+  ],
+  "config": {
+    "bgm_freespin": {
+      "volume": 1
+    },
+    "bgm_main": {
+      "volume": 1
+    },
+    "bgm_winlevel_big": {
+      "volume": 1
+    },
+    "bgm_winlevel_epic": {
+      "volume": 1
+    },
+    "bgm_winlevel_max": {
+      "volume": 1
+    },
+    "bgm_winlevel_mega": {
+      "volume": 1
+    },
+    "bgm_winlevel_superwin": {
+      "volume": 1
+    },
+    "jng_intro_fs": {
+      "volume": 1
+    },
+    "sfx_anticipation": {
+      "volume": 1
+    },
+    "sfx_anticipation_start": {
+      "volume": 1
+    },
+    "sfx_bigwin_coinloop": {
+      "volume": 1
+    },
+    "sfx_btn_general": {
+      "volume": 1
+    },
+    "sfx_btn_spin": {
+      "volume": 1
+    },
+    "sfx_fs_respins": {
+      "volume": 1
+    },
+    "sfx_multiplier_combine_a": {
+      "volume": 1
+    },
+    "sfx_multiplier_combine_b": {
+      "volume": 1
+    },
+    "sfx_multiplier_explosion_a": {
+      "volume": 1
+    },
+    "sfx_multiplier_explosion_b": {
+      "volume": 1
+    },
+    "sfx_multiplier_explosion_c": {
+      "volume": 1
+    },
+    "sfx_multiplier_landing": {
+      "volume": 1
+    },
+    "sfx_multiplier_reset": {
+      "volume": 1
+    },
+    "sfx_multiplier_up": {
+      "volume": 1
+    },
+    "sfx_multiplier_update": {
+      "volume": 1
+    },
+    "sfx_multiplier_win": {
+      "volume": 1
+    },
+    "sfx_reel_stop_1": {
+      "volume": 1
+    },
+    "sfx_reel_stop_2": {
+      "volume": 1
+    },
+    "sfx_reel_stop_3": {
+      "volume": 1
+    },
+    "sfx_reel_stop_4": {
+      "volume": 1
+    },
+    "sfx_reel_stop_5": {
+      "volume": 1
+    },
+    "sfx_royals_landing": {
+      "volume": 1
+    },
+    "sfx_scatter_reveal": {
+      "volume": 1
+    },
+    "sfx_scatter_stop_1": {
+      "volume": 1
+    },
+    "sfx_scatter_stop_2": {
+      "volume": 1
+    },
+    "sfx_scatter_stop_3": {
+      "volume": 1
+    },
+    "sfx_scatter_stop_4": {
+      "volume": 1
+    },
+    "sfx_scatter_stop_5": {
+      "volume": 1
+    },
+    "sfx_scatter_win": {
+      "volume": 1
+    },
+    "sfx_scatter_win_v2": {
+      "volume": 1
+    },
+    "sfx_superfreespin": {
+      "volume": 1
+    },
+    "sfx_symbols_landing": {
+      "volume": 1
+    },
+    "sfx_transition": {
+      "volume": 1
+    },
+    "sfx_wild_explode": {
+      "volume": 1
+    },
+    "sfx_winlevel_end": {
+      "volume": 1
+    },
+    "sfx_winlevel_nice": {
+      "volume": 1
+    },
+    "sfx_winlevel_small": {
+      "volume": 1
+    },
+    "sfx_winlevel_standard": {
+      "volume": 1
+    },
+    "sfx_winlevel_substantial": {
+      "volume": 1
+    },
+    "sfx_youwon_panel": {
+      "volume": 1
+    },
+    "tumble_win_1": {
+      "volume": 1
+    },
+    "tumble_win_2": {
+      "volume": 1
+    },
+    "tumble_win_3": {
+      "volume": 1
+    },
+    "tumble_win_4": {
+      "volume": 1
+    },
+    "tumble_win_5": {
+      "volume": 1
+    }
+  },
+  "slotgenAudio": {
+    "version": "ea8d9b1b-d7c7-465d-a9bb-2d29aa5abaf3",
+    "tracks": {
+      "bgm_freespin": {
+        "filename": "Quirky Playful - Loop.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "bgm_main": {
+        "filename": "Quirky Playful - Loop Without Violins.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "bgm_winlevel_big": {
+        "filename": "LDj_Audio_Magic_Win_V1.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_btn_spin": {
+        "filename": "Game Magic Select.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_scatter_win_v2": {
+        "filename": "Bonus Win 2.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_reel_stop_1": {
+        "filename": "Slot Reel Stop 1.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_anticipation": {
+        "filename": "Slot Reel Spin Melody.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "bgm_winlevel_epic": {
+        "filename": "LDj_Audio_Magic_Win_V3.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "bgm_winlevel_max": {
+        "filename": "LDj_Audio_Magic_Win_V3.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "bgm_winlevel_mega": {
+        "filename": "LDj_Audio_Magic_Win_V2.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "bgm_winlevel_superwin": {
+        "filename": "LDj_Audio_Magic_Win_V2.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "jng_intro_fs": {
+        "filename": "Magic Game Transition 2.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_bigwin_coinloop": {
+        "filename": "coin_loop.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-18T00:48:46.322Z"
+      },
+      "sfx_btn_general": {
+        "filename": "Game Magic Select.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_multiplier_landing": {
+        "filename": "Sparkle Pop 1.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_scatter_stop_1": {
+        "filename": "Slot Special Reel Stop 1.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_scatter_stop_2": {
+        "filename": "Slot Special Reel Stop 2.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_scatter_stop_3": {
+        "filename": "Slot Special Reel Stop 3.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_scatter_stop_4": {
+        "filename": "Slot Special Reel Stop 4.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_scatter_stop_5": {
+        "filename": "Slot Special Reel Stop 5.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_superfreespin": {
+        "filename": "AI-sfx_superfreespin.wav",
+        "projectId": "831db82f-9ddd-4a4f-9a76-9c3f1a909a2f",
+        "appliedAt": "2026-09-13T02:19:26.153Z"
+      },
+      "sfx_wild_explode": {
+        "filename": "Sparkle Pop 5.wav",
+        "projectId": "739555ba-b570-4d48-b315-c6a66aae2ac0",
+        "appliedAt": "2026-09-17T12:31:05.481Z"
+      },
+      "sfx_winlevel_end": {
+        "filename": "Go Success 7.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_winlevel_small": {
+        "filename": "Go Success 7.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_youwon_panel": {
+        "filename": "Go Success 7.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      },
+      "sfx_transition": {
+        "filename": "Magic Game Transition.wav",
+        "projectId": "c6d41fdd-cf40-4230-9934-985213413e38",
+        "appliedAt": "2026-10-07T06:49:51.027Z"
+      }
+    }
+  }
+}

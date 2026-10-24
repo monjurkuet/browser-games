@@ -1,0 +1,782 @@
+{
+  "frames": {
+    "frame_186": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 329,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 15,
+        "y": 9,
+        "w": 329,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    },
+    "frame_187": {
+      "frame": {
+        "x": 335,
+        "y": 2,
+        "w": 337,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 9,
+        "w": 337,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    },
+    "frame_188": {
+      "frame": {
+        "x": 2,
+        "y": 447,
+        "w": 335,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 10,
+        "y": 9,
+        "w": 335,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    },
+    "frame_189": {
+      "frame": {
+        "x": 341,
+        "y": 447,
+        "w": 336,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 9,
+        "w": 336,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    },
+    "frame_190": {
+      "frame": {
+        "x": 2,
+        "y": 892,
+        "w": 337,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 9,
+        "w": 337,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    },
+    "frame_191": {
+      "frame": {
+        "x": 343,
+        "y": 892,
+        "w": 337,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": true,
+      "spriteSourceSize": {
+        "x": 9,
+        "y": 9,
+        "w": 337,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 355,
+        "h": 459
+      }
+    }
+  },
+  "animations": {},
+  "meta": {
+    "image": "skinCharacter-7.webp",
+    "size": {
+      "w": 682,
+      "h": 1335
+    },
+    "scale": "1",
+    "fps": 17,
+    "characterPages": [
+      {
+        "image": "skinCharacter.webp",
+        "size": {
+          "w": 1994,
+          "h": 1998
+        }
+      },
+      {
+        "image": "skinCharacter-1.webp",
+        "size": {
+          "w": 1847,
+          "h": 1956
+        }
+      },
+      {
+        "image": "skinCharacter-2.webp",
+        "size": {
+          "w": 1970,
+          "h": 2020
+        }
+      },
+      {
+        "image": "skinCharacter-3.webp",
+        "size": {
+          "w": 1615,
+          "h": 1708
+        }
+      },
+      {
+        "image": "skinCharacter-4.webp",
+        "size": {
+          "w": 1729,
+          "h": 1721
+        }
+      },
+      {
+        "image": "skinCharacter-5.webp",
+        "size": {
+          "w": 1360,
+          "h": 1780
+        }
+      },
+      {
+        "image": "skinCharacter-6.webp",
+        "size": {
+          "w": 1364,
+          "h": 1780
+        }
+      },
+      {
+        "image": "skinCharacter-7.webp",
+        "size": {
+          "w": 682,
+          "h": 1335
+        }
+      }
+    ],
+    "characterLayoutVersion": 2,
+    "characterMotionsVersion": 1,
+    "characterBakedLogoMotions": [
+      "idle",
+      "spin",
+      "win",
+      "feature"
+    ],
+    "characterGround": {
+      "x": 0.5408450704225352,
+      "y": 0.9607843137254902
+    },
+    "characterBrandAnchors": {
+      "frame_0": {
+        "visible": false
+      },
+      "frame_1": {
+        "visible": false
+      },
+      "frame_2": {
+        "visible": false
+      },
+      "frame_3": {
+        "visible": false
+      },
+      "frame_4": {
+        "visible": false
+      },
+      "frame_5": {
+        "visible": false
+      },
+      "frame_6": {
+        "visible": false
+      },
+      "frame_7": {
+        "visible": false
+      },
+      "frame_8": {
+        "visible": false
+      },
+      "frame_9": {
+        "visible": false
+      },
+      "frame_10": {
+        "visible": false
+      },
+      "frame_11": {
+        "visible": false
+      },
+      "frame_12": {
+        "visible": false
+      },
+      "frame_13": {
+        "visible": false
+      },
+      "frame_14": {
+        "visible": false
+      },
+      "frame_15": {
+        "visible": false
+      },
+      "frame_16": {
+        "visible": false
+      },
+      "frame_17": {
+        "visible": false
+      },
+      "frame_18": {
+        "visible": false
+      },
+      "frame_19": {
+        "visible": false
+      },
+      "frame_20": {
+        "visible": false
+      },
+      "frame_21": {
+        "visible": false
+      },
+      "frame_22": {
+        "visible": false
+      },
+      "frame_23": {
+        "visible": false
+      },
+      "frame_24": {
+        "visible": false
+      },
+      "frame_25": {
+        "visible": false
+      },
+      "frame_26": {
+        "visible": false
+      },
+      "frame_27": {
+        "visible": false
+      },
+      "frame_28": {
+        "visible": false
+      },
+      "frame_29": {
+        "visible": false
+      },
+      "frame_30": {
+        "visible": false
+      },
+      "frame_31": {
+        "visible": false
+      },
+      "frame_32": {
+        "visible": false
+      },
+      "frame_33": {
+        "visible": false
+      },
+      "frame_34": {
+        "visible": false
+      },
+      "frame_35": {
+        "visible": false
+      },
+      "frame_36": {
+        "visible": false
+      },
+      "frame_37": {
+        "visible": false
+      },
+      "frame_38": {
+        "visible": false
+      },
+      "frame_39": {
+        "visible": false
+      },
+      "frame_40": {
+        "visible": false
+      },
+      "frame_41": {
+        "visible": false
+      },
+      "frame_42": {
+        "visible": false
+      },
+      "frame_43": {
+        "visible": false
+      },
+      "frame_44": {
+        "visible": false
+      },
+      "frame_45": {
+        "visible": false
+      },
+      "frame_46": {
+        "visible": false
+      },
+      "frame_47": {
+        "visible": false
+      },
+      "frame_48": {
+        "visible": false
+      },
+      "frame_49": {
+        "visible": false
+      },
+      "frame_50": {
+        "visible": false
+      },
+      "frame_51": {
+        "visible": false
+      },
+      "frame_52": {
+        "visible": false
+      },
+      "frame_53": {
+        "visible": false
+      },
+      "frame_54": {
+        "visible": false
+      },
+      "frame_55": {
+        "visible": false
+      },
+      "frame_56": {
+        "visible": false
+      },
+      "frame_57": {
+        "visible": false
+      },
+      "frame_58": {
+        "visible": false
+      },
+      "frame_59": {
+        "visible": false
+      },
+      "frame_60": {
+        "visible": false
+      },
+      "frame_61": {
+        "visible": false
+      },
+      "frame_62": {
+        "visible": false
+      },
+      "frame_63": {
+        "visible": false
+      },
+      "frame_64": {
+        "visible": false
+      },
+      "frame_65": {
+        "visible": false
+      },
+      "frame_66": {
+        "visible": false
+      },
+      "frame_67": {
+        "visible": false
+      },
+      "frame_68": {
+        "visible": false
+      },
+      "frame_69": {
+        "visible": false
+      },
+      "frame_70": {
+        "visible": false
+      },
+      "frame_71": {
+        "visible": false
+      },
+      "frame_72": {
+        "visible": false
+      },
+      "frame_73": {
+        "visible": false
+      },
+      "frame_74": {
+        "visible": false
+      },
+      "frame_75": {
+        "visible": false
+      },
+      "frame_76": {
+        "visible": false
+      },
+      "frame_77": {
+        "visible": false
+      },
+      "frame_78": {
+        "visible": false
+      },
+      "frame_79": {
+        "visible": false
+      },
+      "frame_80": {
+        "visible": false
+      },
+      "frame_81": {
+        "visible": false
+      },
+      "frame_82": {
+        "visible": false
+      },
+      "frame_83": {
+        "visible": false
+      },
+      "frame_84": {
+        "visible": false
+      },
+      "frame_85": {
+        "visible": false
+      },
+      "frame_86": {
+        "visible": false
+      },
+      "frame_87": {
+        "visible": false
+      },
+      "frame_88": {
+        "visible": false
+      },
+      "frame_89": {
+        "visible": false
+      },
+      "frame_90": {
+        "visible": false
+      },
+      "frame_91": {
+        "visible": false
+      },
+      "frame_92": {
+        "visible": false
+      },
+      "frame_93": {
+        "visible": false
+      },
+      "frame_94": {
+        "visible": false
+      },
+      "frame_95": {
+        "visible": false
+      },
+      "frame_96": {
+        "visible": false
+      },
+      "frame_97": {
+        "visible": false
+      },
+      "frame_98": {
+        "visible": false
+      },
+      "frame_99": {
+        "visible": false
+      },
+      "frame_100": {
+        "visible": false
+      },
+      "frame_101": {
+        "visible": false
+      },
+      "frame_102": {
+        "visible": false
+      },
+      "frame_103": {
+        "visible": false
+      },
+      "frame_104": {
+        "visible": false
+      },
+      "frame_105": {
+        "visible": false
+      },
+      "frame_106": {
+        "visible": false
+      },
+      "frame_107": {
+        "visible": false
+      },
+      "frame_108": {
+        "visible": false
+      },
+      "frame_109": {
+        "visible": false
+      },
+      "frame_110": {
+        "visible": false
+      },
+      "frame_111": {
+        "visible": false
+      },
+      "frame_112": {
+        "visible": false
+      },
+      "frame_113": {
+        "visible": false
+      },
+      "frame_114": {
+        "visible": false
+      },
+      "frame_115": {
+        "visible": false
+      },
+      "frame_116": {
+        "visible": false
+      },
+      "frame_117": {
+        "visible": false
+      },
+      "frame_118": {
+        "visible": false
+      },
+      "frame_119": {
+        "visible": false
+      },
+      "frame_120": {
+        "visible": false
+      },
+      "frame_121": {
+        "visible": false
+      },
+      "frame_122": {
+        "visible": false
+      },
+      "frame_123": {
+        "visible": false
+      },
+      "frame_124": {
+        "visible": false
+      },
+      "frame_125": {
+        "visible": false
+      },
+      "frame_126": {
+        "visible": false
+      },
+      "frame_127": {
+        "visible": false
+      },
+      "frame_128": {
+        "visible": false
+      },
+      "frame_129": {
+        "visible": false
+      },
+      "frame_130": {
+        "visible": false
+      },
+      "frame_131": {
+        "visible": false
+      },
+      "frame_132": {
+        "visible": false
+      },
+      "frame_133": {
+        "visible": false
+      },
+      "frame_134": {
+        "visible": false
+      },
+      "frame_135": {
+        "visible": false
+      },
+      "frame_136": {
+        "visible": false
+      },
+      "frame_137": {
+        "visible": false
+      },
+      "frame_138": {
+        "visible": false
+      },
+      "frame_139": {
+        "visible": false
+      },
+      "frame_140": {
+        "visible": false
+      },
+      "frame_141": {
+        "visible": false
+      },
+      "frame_142": {
+        "visible": false
+      },
+      "frame_143": {
+        "visible": false
+      },
+      "frame_144": {
+        "visible": false
+      },
+      "frame_145": {
+        "visible": false
+      },
+      "frame_146": {
+        "visible": false
+      },
+      "frame_147": {
+        "visible": false
+      },
+      "frame_148": {
+        "visible": false
+      },
+      "frame_149": {
+        "visible": false
+      },
+      "frame_150": {
+        "visible": false
+      },
+      "frame_151": {
+        "visible": false
+      },
+      "frame_152": {
+        "visible": false
+      },
+      "frame_153": {
+        "visible": false
+      },
+      "frame_154": {
+        "visible": false
+      },
+      "frame_155": {
+        "visible": false
+      },
+      "frame_156": {
+        "visible": false
+      },
+      "frame_157": {
+        "visible": false
+      },
+      "frame_158": {
+        "visible": false
+      },
+      "frame_159": {
+        "visible": false
+      },
+      "frame_160": {
+        "visible": false
+      },
+      "frame_161": {
+        "visible": false
+      },
+      "frame_162": {
+        "visible": false
+      },
+      "frame_163": {
+        "visible": false
+      },
+      "frame_164": {
+        "visible": false
+      },
+      "frame_165": {
+        "visible": false
+      },
+      "frame_166": {
+        "visible": false
+      },
+      "frame_167": {
+        "visible": false
+      },
+      "frame_168": {
+        "visible": false
+      },
+      "frame_169": {
+        "visible": false
+      },
+      "frame_170": {
+        "visible": false
+      },
+      "frame_171": {
+        "visible": false
+      },
+      "frame_172": {
+        "visible": false
+      },
+      "frame_173": {
+        "visible": false
+      },
+      "frame_174": {
+        "visible": false
+      },
+      "frame_175": {
+        "visible": false
+      },
+      "frame_176": {
+        "visible": false
+      },
+      "frame_177": {
+        "visible": false
+      },
+      "frame_178": {
+        "visible": false
+      },
+      "frame_179": {
+        "visible": false
+      },
+      "frame_180": {
+        "visible": false
+      },
+      "frame_181": {
+        "visible": false
+      },
+      "frame_182": {
+        "visible": false
+      },
+      "frame_183": {
+        "visible": false
+      },
+      "frame_184": {
+        "visible": false
+      },
+      "frame_185": {
+        "visible": false
+      },
+      "frame_186": {
+        "visible": false
+      },
+      "frame_187": {
+        "visible": false
+      },
+      "frame_188": {
+        "visible": false
+      },
+      "frame_189": {
+        "visible": false
+      },
+      "frame_190": {
+        "visible": false
+      },
+      "frame_191": {
+        "visible": false
+      }
+    }
+  }
+}

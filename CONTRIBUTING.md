@@ -9,7 +9,7 @@ This repository contains educational ports of Construct 3 games for study purpos
 - **Server fixes only**: Improvements to static servers (MIME types, URL handling, CORS) are the primary contribution area.
 - **Documentation**: Update per-game NOTES.md and README.md when you verify or fix something.
 
-## Running Games
+## Usage
 
 Each game directory contains a `server.js`. Run with Node.js:
 
@@ -31,3 +31,4 @@ Then open `http://localhost:<port>/` in a browser.
 | walking-death | 8619 | Construct 3 |
 | zeus-slot-clone | 8124 | Construct 3 |
 | dragon-blaze | 8154 | Godot 4 (C#) |
+| shadow-catcher-port | 8791 | Custom HTML5/Canvas |

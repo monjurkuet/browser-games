@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Slotgen HTML5 Slot Game</title>
+		<meta name="application-name" content="Slotgen" />
+		<meta name="author" content="Slotgen" />
+		<meta name="generator" content="Slotgen" />
+		<meta
+			name="description"
+			content="An interactive HTML5 slot game created and reskinned with Slotgen."
+		/>
+		<meta
+			name="keywords"
+			content="Slotgen, HTML5 slot game, slot game development, slot game reskin"
+		/>
+		<script>
+			(() => {
+				const announce = console.info.bind(console);
+				const debug = new URLSearchParams(window.location.search).has('debug');
+				if (!debug) {
+					for (const method of ['log', 'info', 'debug', 'warn']) console[method] = () => {};
+				}
+				announce(
+					'Engineered by Slotgen - proprietary math generation, game engine, reskinning and production technology for HTML5 slot games.',
+				);
+			})();
+		</script>
+		<meta name="slotgen-title-frames" content="1" />
+		<meta name="slotgen-character-support" content="1" />
+		<meta name="slotgen-scene" content="1" />
+		<meta name="slotgen-background-video" content="1" />
+		<meta name="slotgen-special-symbols" content="1" />
+		<meta name="slotgen-presentation" content="1" />
+		<meta name="slotgen-celebration" content="1" />
+		<meta name="slotgen-free-spin-counter" content="1" />
+		<meta name="slotgen-board-glow" content="1" />
+		<meta name="slotgen-character-motions" content="1" />
+		<meta name="slotgen-ui" content="1" />
+		<link rel="icon" type="image/svg+xml" href="./images/favicon.svg?v=slotgen-2" />
+		
+	
+		<link rel="stylesheet" href="./scripts/style.css" />
+	</head>
+	<body style="margin: 0; padding: 0; overflow: hidden; background-color: black">
+		<div>
+			<script src="./config/game-config.js"></script>
+			<script src="./config/skin-config.js"></script>
+			<script src="./config/win-presentation.js"></script>
+			<script src="./math/game-math.js"></script>
+			<script src="./scripts/game.js"></script>
+		</div>
+	</body>
+</html>
