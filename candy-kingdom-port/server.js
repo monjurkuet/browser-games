@@ -2,7 +2,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = Number(process.env.PORT || 8141);
+const requestedPort = process.env.PORT || '8141';
+const PORT = Number(requestedPort);
 const HOST = process.env.HOST || '127.0.0.1';
 const ROOT = path.resolve(__dirname);
 
@@ -32,8 +33,8 @@ const MIME_TYPES = {
   '.webmanifest': 'application/manifest+json',
 };
 
-if (!Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
-  throw new Error(`Invalid PORT: ${process.env.PORT}`);
+if (!/^\d+$/.test(requestedPort) || !Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
+  throw new Error(`Invalid PORT: ${requestedPort}`);
 }
 
 function mime(file) {
@@ -50,6 +51,10 @@ const server = http.createServer((req, res) => {
   try {
     urlPath = decodeURIComponent(req.url.split('?')[0]);
   } catch {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    return res.end('400 Bad Request');
+  }
+  if (urlPath.includes('\0')) {
     res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
     return res.end('400 Bad Request');
   }
@@ -82,6 +87,11 @@ const server = http.createServer((req, res) => {
       res.end(body);
     });
   });
+});
+
+server.on('error', (error) => {
+  console.error(`Server error: ${error.message}`);
+  process.exitCode = 1;
 });
 
 server.listen(PORT, HOST, () => {

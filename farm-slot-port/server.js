@@ -60,7 +60,17 @@ function serveFile(res, filePath) {
 
 const server = http.createServer((req, res) => {
   // Normalize URL path - decode %20 etc.
-  let urlPath = decodeURIComponent(req.url.split('?')[0]);
+  let urlPath;
+  try {
+    urlPath = decodeURIComponent(req.url.split('?')[0]);
+  } catch {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    return res.end('400 Bad Request');
+  }
+  if (urlPath.includes('\0')) {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    return res.end('400 Bad Request');
+  }
   if (urlPath === '/') urlPath = '/index.html';
 
   // Prevent directory traversal

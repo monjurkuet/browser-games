@@ -5,7 +5,7 @@ This repository contains browser game ports for local study and development.
 ## Guidelines
 
 - **Port fidelity**: Keep direct-port runtime and asset trees aligned with the original preview builds.
-- **Engine separation**: Godot projects belong outside this browser-ports repository, such as `G:/godot port/`.
+- **Engine separation**: Godot projects belong in a separate Godot workspace outside this browser-ports repository.
 - **Server fixes**: Improvements to static servers (MIME types, URL handling, CORS) are the primary contribution area.
 - **Documentation**: Update per-game NOTES.md and README.md when you verify or fix something.
 

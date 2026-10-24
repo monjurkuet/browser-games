@@ -6,7 +6,7 @@ const requestedPort = process.env.PORT ?? '8791';
 const port = Number(requestedPort);
 const host = process.env.HOST ?? '127.0.0.1';
 
-if (!Number.isInteger(port) || port < 1 || port > 65535) {
+if (!/^\d+$/.test(requestedPort) || !Number.isInteger(port) || port < 1 || port > 65535) {
   throw new Error(`Invalid PORT: ${requestedPort}`);
 }
 
@@ -48,6 +48,10 @@ const server = http.createServer((req, res) => {
     res.writeHead(400, { 'Content-Type': 'text/plain' });
     return res.end('Bad request');
   }
+  if (pathname.includes('\0')) {
+    res.writeHead(400, { 'Content-Type': 'text/plain' });
+    return res.end('Bad request');
+  }
 
   const rel = pathname === '/' ? 'index.html' : pathname.replace(/^\/+/, '');
   const file = path.resolve(root, rel);
@@ -84,6 +88,11 @@ const server = http.createServer((req, res) => {
     });
     stream.pipe(res);
   });
+});
+
+server.on('error', (error) => {
+  console.error(`Server error: ${error.message}`);
+  process.exitCode = 1;
 });
 
 server.listen(port, host, () => {

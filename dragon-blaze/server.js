@@ -34,7 +34,7 @@ const MIME_TYPES = {
   '.webmanifest': 'application/manifest+json',
 };
 
-if (!Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
+if (!/^\d+$/.test(requestedPort) || !Number.isInteger(PORT) || PORT < 1 || PORT > 65535) {
   throw new Error(`Invalid PORT: ${requestedPort}`);
 }
 
@@ -87,6 +87,10 @@ const server = http.createServer((req, res) => {
     res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
     return res.end('400 Bad Request');
   }
+  if (urlPath.includes('\0')) {
+    res.writeHead(400, { 'Content-Type': 'text/plain; charset=utf-8' });
+    return res.end('400 Bad Request');
+  }
   if (urlPath === '/') urlPath = '/index.html';
 
   // Prevent directory traversal
@@ -110,6 +114,11 @@ const server = http.createServer((req, res) => {
     }
     serveFile(req, res, requestedPath);
   });
+});
+
+server.on('error', (error) => {
+  console.error(`Server error: ${error.message}`);
+  process.exitCode = 1;
 });
 
 server.listen(PORT, HOST, () => {
