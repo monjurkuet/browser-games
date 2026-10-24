@@ -9,7 +9,7 @@ cd shadow-catcher-port
 node server.js
 ```
 
-Open <http://localhost:8791/>.
+Open <http://localhost:8791/>. Set `PORT` to use a different port and `HOST` to bind to another interface (default: `127.0.0.1`).
 
 ## What was captured
 

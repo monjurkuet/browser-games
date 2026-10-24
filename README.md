@@ -45,7 +45,8 @@ browser-games/
 ├── walking-death/              # Construct 3 direct port (in game/ subdir)
 ├── zeus-slot-clone/
 │   └── c3-direct-port/         # Construct 3 direct port
-└── dragon-blaze/               # Godot 4 C# clean-room rebuild
+├── dragon-blaze/               # Godot 4 C# clean-room rebuild
+└── shadow-catcher-port/        # Custom HTML5/Canvas direct port
 ```
 
 Each game directory contains:
@@ -60,13 +61,13 @@ Each game directory contains:
 
 ## Verification Status
 
-All 7 games have been booted in headless Chrome and verified:
+The listed ports have been booted in headless Chrome and verified:
 - ✅ Zero console errors
 - ✅ All referenced assets return HTTP 200
 - ✅ Canvas renders at expected resolution
 - ✅ Game logic executes (spin cycles, balance updates, etc.)
 
-See per-game `NOTES.md` for detailed verification evidence.
+See each game's documentation for detailed verification evidence.
 
 ## Asset Recovery
 
