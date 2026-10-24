@@ -1,0 +1,15 @@
+# Auto-detect text files
+* text=auto
+
+# Game assets - treat as binary
+*.png binary
+*.webp binary
+*.webm binary
+*.ogg binary
+*.mp4 binary
+*.mp3 binary
+*.wasm binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary

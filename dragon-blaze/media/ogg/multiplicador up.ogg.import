@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://be6cd2rkb33s2"
+path="res://.godot/imported/multiplicador up.ogg-1a1ca7e14b651b43af87eaa6877ec539.oggvorbisstr"
+
+[deps]
+
+source_file="res://media/ogg/multiplicador up.ogg"
+dest_files=["res://.godot/imported/multiplicador up.ogg-1a1ca7e14b651b43af87eaa6877ec539.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

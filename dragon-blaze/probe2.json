@@ -1,0 +1,59 @@
+{
+ "cardsAnims": [
+  {
+   "name": "Animation 1",
+   "keys": [
+    "name:Animation 1"
+   ],
+   "frameCount": 11
+  }
+ ],
+ "globalVars": {
+  "CellSize": "number",
+  "StartX": "number",
+  "StartY": "number",
+  "IsProcessing": "number",
+  "CellW": "number",
+  "CellH": "number",
+  "Rows": "number",
+  "Columns": "number",
+  "ClickedX": "number",
+  "ClickedY": "number",
+  "ExitType": "number",
+  "RandomDifficulty": "number",
+  "SpecialRound": "number",
+  "SpecialRoundFinished": "number",
+  "RoundWin": "number",
+  "TotalWinnings": "number",
+  "BetAmount": "number",
+  "Balance": "number",
+  "ControlledResultEnabled": "number",
+  "Loading": "number",
+  "CommonCardSoundCount": "number",
+  "SpecialCardSoundCount": "number",
+  "GameResult": "string",
+  "BonusWinnings": "number",
+  "BigWin": "number",
+  "MusicActive": "number",
+  "MusicControl": "number",
+  "PrizeChartOpen": "number",
+  "Special_Mode": "number",
+  "VideoActive": "number",
+  "WinningCardsAnimation": "number",
+  "RoundWinAnimation": "number",
+  "AnimateMultiplier": "number",
+  "MultiplierValue": "number",
+  "DragonBlaze": "number",
+  "SpecialWithoutPrize": "number",
+  "BlitzPremiation": "number",
+  "EggCount": "number",
+  "BonusGame": "number",
+  "LocalBet": "number",
+  "BonusLine": "number",
+  "BonusPosition": "number",
+  "BonusResult": "string",
+  "BlitzResult": "string",
+  "Txt": "string"
+ },
+ "currentLayout": "Load Land"
+}

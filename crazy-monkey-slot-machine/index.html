@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Crazy Monkey Slot Machine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+<meta name="generator" content="Construct 3">
+	<meta name="author" content="PAS GAMES">
+	<meta name="description" content="Crazy Monkey Slot Machine">
+	<link rel="manifest" href="appmanifest.json">
+	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+	<link rel="icon" type="image/png" href="icons/icon-256.png">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="fb-root"></div>
+
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+	<script>
+		// Provide xmlDomLib for C3 XML plugin (DOM mode)
+		window.DOMParser = window.DOMParser || class {
+			parseFromString(str, mimeType) {
+				const parser = new DOMParser();
+				return parser.parseFromString(str, mimeType);
+			}
+		};
+		window.XPathResult = window.XPathResult || class XPathResult {
+			constructor() {
+				this.resultType = 0;
+				this.numberValue = 0;
+				this.stringValue = "";
+				this.booleanValue = false;
+				this.singleNodeValue = null;
+				this.snapshotLength = 0;
+				this.invalidIteratorState = false;
+			}
+			iterateNext() { return null; }
+			snapshotItem() { return null; }
+		};
+		window.XPathResult.ANY_TYPE = 0;
+		window.XPathResult.NUMBER_TYPE = 1;
+		window.XPathResult.STRING_TYPE = 2;
+		window.XPathResult.BOOLEAN_TYPE = 3;
+		window.XPathResult.UNORDERED_NODE_ITERATOR_TYPE = 4;
+		window.XPathResult.ORDERED_NODE_ITERATOR_TYPE = 5;
+		window.XPathResult.UNORDERED_NODE_SNAPSHOT_TYPE = 6;
+		window.XPathResult.ORDERED_NODE_SNAPSHOT_TYPE = 7;
+		window.XPathResult.ANY_UNORDERED_NODE_TYPE = 8;
+		window.XPathResult.FIRST_ORDERED_NODE_TYPE = 9;
+		function evaluate(xpathExpression, contextNode, namespaceResolver, resultType, result) {
+			return new window.XPathResult();
+		}
+		window.xmlDomLib = {
+			DOMParser: window.DOMParser,
+			XPathResult: window.XPathResult,
+			evaluate: evaluate
+		};
+	</script>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/offlineclient.js" type="module"></script>
+	<script src="scripts/main.js" type="module"></script>
+	<script src="scripts/register-sw.js" type="module"></script>
+</body>
+</html>

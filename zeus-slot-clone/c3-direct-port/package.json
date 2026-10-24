@@ -1,0 +1,16 @@
+{
+  "name": "zeus-slot-c3-direct-port",
+  "version": "1.0.0",
+  "description": "Zeus Slot - Direct port using original Construct 3 runtime and assets",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m http.server 8124 --bind 0.0.0.0",
+    "start:node": "node server.js"
+  },
+  "keywords": [
+    "construct3",
+    "zeus-slot",
+    "game"
+  ],
+  "license": "UNLICENSED"
+}

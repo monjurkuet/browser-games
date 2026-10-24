@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://i2kp13lsyb8w"
+path="res://.godot/imported/Card Dragon 2.ogg-0e143324bf350bd0ad66c5280827bb1b.oggvorbisstr"
+
+[deps]
+
+source_file="res://media/ogg/Card Dragon 2.ogg"
+dest_files=["res://.godot/imported/Card Dragon 2.ogg-0e143324bf350bd0ad66c5280827bb1b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

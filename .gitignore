@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+.env
+.env.local
+
+# Game runtime (generated at runtime)
+*.localstorage*

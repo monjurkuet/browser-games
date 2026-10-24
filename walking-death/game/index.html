@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Walking Death</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	
+	<!-- Made with Construct, the game and app creator :: https://www.construct.net -->
+	<meta name="generator" content="Scirra Construct">
+
+	<meta name="author" content="Pas Games">
+	<meta name="description" content="1.0.0.0">
+
+	<link rel="manifest" href="appmanifest.json">
+	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+	<link rel="icon" type="image/png" href="icons/icon-256.png">
+
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+		/* Responsive wrapper for the Construct canvas (native 1080x1920 portrait) */
+		html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; }
+		#c3-game-container {
+			position: fixed; inset: 0;
+			display: flex; align-items: center; justify-content: center;
+		}
+		#c3-canvas-wrapper {
+			width: 100%; max-width: min(100vw, calc(100vh * 0.5625)); /* 1080/1920 = 0.5625 */
+			aspect-ratio: 1080 / 1920;
+		}
+		#c3-canvas-wrapper canvas {
+			position: relative !important;
+			width: 100% !important;
+			height: 100% !important;
+			margin: 0 !important;
+			display: block;
+		}
+		@media (max-width: 768px) {
+			#c3-game-container { align-items: stretch; }
+			#c3-canvas-wrapper { max-width: 100vw; height: auto; }
+		}
+	</style>
+</head>
+<body>
+
+	<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+	alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+
+// Move the Construct-created canvas into our responsive wrapper once it exists,
+// then clear the runtime's inline sizing so CSS controls layout.
+(function ()
+{
+	const retries = [500, 1000, 2000, 3000];
+	function moveCanvas()
+	{
+		const canvas = document.querySelector("body > canvas");
+		const wrapper = document.getElementById("c3-canvas-wrapper");
+		if (canvas && wrapper && canvas.parentElement !== wrapper)
+		{
+			wrapper.appendChild(canvas);
+			canvas.style.width = "";
+			canvas.style.height = "";
+			canvas.style.margin = "";
+			canvas.style.position = "";
+			return true;
+		}
+		return false;
+	}
+	function schedule()
+	{
+		const delay = retries.shift();
+		if (delay === undefined) return; // give up silently; game still runs
+		setTimeout(() => { if (!moveCanvas()) schedule(); }, delay);
+	}
+	if (document.readyState === "loading")
+		document.addEventListener("DOMContentLoaded", schedule);
+	else
+		schedule();
+})();
+	</script>
+	
+	<noscript>
+		<div id="notSupportedWrap">
+			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
+			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+		</div>
+	</noscript>
+	<script src="scripts/modernjscheck.js"></script>
+	<script src="scripts/supportcheck.js"></script>
+	<script src="scripts/main.js" type="module"></script>
+
+	<div id="c3-game-container">
+		<div id="c3-canvas-wrapper"></div>
+	</div>
+</body>
+</html>

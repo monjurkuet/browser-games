@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Toyland Fortune</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+    <!-- Made with Construct, the game and app creator :: https://www.construct.net -->
+    <meta name="generator" content="Scirra Construct">
+
+    <meta name="author" content="Pas Games">
+    <meta name="description" content="1.0.0.0">
+
+    <link rel="manifest" href="appmanifest.json">
+    <link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
+    <link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
+    <link rel="icon" type="image/png" href="icons/icon-256.png">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Responsive wrapper for Construct 3 game */
+        #c3-game-container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #ffffff;
+            overflow: hidden;
+        }
+        #c3-canvas-wrapper {
+            /* Game's native aspect ratio: 1080/1920 = 0.5625 (portrait) */
+            aspect-ratio: 1080 / 1920;
+            width: 100%;
+            max-width: 480px; /* Desktop constraint */
+            height: auto;
+            overflow: hidden;
+        }
+        #c3-canvas-wrapper canvas {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        /* Mobile: fill viewport width */
+        @media (max-width: 768px) {
+            #c3-game-container {
+                height: 100vh;
+                align-items: center;
+            }
+            #c3-canvas-wrapper {
+                max-width: none;
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+if (location.protocol.substr(0, 4) === "file")
+{
+    alert("Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)");
+}
+</script>
+
+<noscript>
+    <div id="notSupportedWrap">
+        <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+        <p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
+    </div>
+</noscript>
+<div id="c3-game-container">
+    <div id="c3-canvas-wrapper"></div>
+</div>
+<script src="scripts/modernjscheck.js"></script>
+<script src="scripts/supportcheck.js"></script>
+<script src="scripts/main.js" type="module"></script>
+<script>
+// Move canvas into wrapper after C3 runtime initializes
+    (function() {
+        const wrapper = document.getElementById('c3-canvas-wrapper');
+        const container = document.getElementById('c3-game-container');
+        
+        function moveCanvas() {
+            const canvas = document.querySelector('canvas');
+            if (canvas && canvas.parentElement !== wrapper) {
+                // Clear all inline styles set by C3 runtime
+                canvas.style.width = '';
+                canvas.style.height = '';
+                canvas.style.margin = '';
+                canvas.style.position = '';
+                canvas.style.display = '';
+                canvas.style.marginLeft = '';
+                canvas.style.marginTop = '';
+                
+                wrapper.appendChild(canvas);
+                console.log('[Toyland Fortune] Canvas moved to responsive wrapper');
+                
+                // Force canvas CSS size to match wrapper
+                canvas.style.width = '100%';
+                canvas.style.height = '100%';
+                canvas.style.display = 'block';
+                canvas.style.backgroundColor = '#000000';
+                // Also force renderer to use opaque clear
+                if (window.c3_runtimeInterface && window.c3_runtimeInterface._localRuntime) {
+                    const renderer = window.c3_runtimeInterface._localRuntime.GetRenderer();
+                    if (renderer && renderer.SetClearColor) {
+                        renderer.SetClearColor(0, 0, 0, 1);
+                    }
+                }
+                
+                // Notify C3 runtime of canvas CSS size change
+                if (window.c3_runtimeInterface && typeof window.c3_runtimeInterface.UpdateCanvasCSSSize === 'function') {
+                    try {
+                        window.c3_runtimeInterface.UpdateCanvasCSSSize();
+                        console.log('[Toyland Fortune] Called UpdateCanvasCSSSize');
+                    } catch (e) {
+                        console.warn('[Toyland Fortune] UpdateCanvasCSSSize failed:', e);
+                    }
+                }
+                return true;
+            }
+            return false;
+        }
+        
+        // Also handle resize
+        function handleResize() {
+            if (window.c3_runtimeInterface && typeof window.c3_runtimeInterface.UpdateCanvasCSSSize === 'function') {
+                try {
+                    window.c3_runtimeInterface.UpdateCanvasCSSSize();
+                } catch (e) {
+                    console.warn('[Toyland Fortune] UpdateCanvasCSSSize on resize failed:', e);
+                }
+            }
+        }
+        
+        // Try immediately
+        if (!moveCanvas()) {
+            // Retry with increasing delays
+            const delays = [500, 1000, 2000, 3000];
+            delays.forEach(delay => {
+                setTimeout(moveCanvas, delay);
+            });
+            // Also try on window load
+            window.addEventListener('load', moveCanvas);
+        }
+        
+        // Watch for canvas size changes
+        const canvas = document.querySelector('canvas');
+        if (canvas && window.ResizeObserver) {
+            new ResizeObserver(handleResize).observe(canvas);
+        }
+        window.addEventListener('resize', handleResize);
+        
+        // Send wrapper size to runtime as "window-resize" to force correct canvas sizing
+        function syncWrapperSizeToRuntime() {
+            const wrapper = document.getElementById('c3-canvas-wrapper');
+            if (wrapper && window.c3_runtimeInterface) {
+                const rect = wrapper.getBoundingClientRect();
+                window.c3_runtimeInterface.PostToRuntimeComponent('runtime', 'window-resize', {
+                    innerWidth: rect.width,
+                    innerHeight: rect.height,
+                    devicePixelRatio: window.devicePixelRatio,
+                    isFullscreen: document.fullscreenElement !== null,
+                    cssDisplayMode: window.c3_runtimeInterface.GetCssDisplayMode()
+                });
+            }
+        }
+        
+        // Sync after canvas moved and on resize
+        const originalMoveCanvas = moveCanvas;
+        moveCanvas = function() {
+            const result = originalMoveCanvas();
+            if (result) {
+                setTimeout(syncWrapperSizeToRuntime, 100);
+            }
+            return result;
+        };
+        
+        window.addEventListener('resize', () => {
+            handleResize();
+            setTimeout(syncWrapperSizeToRuntime, 100);
+        });
+        
+        // Also sync after a delay to catch initial layout
+        setTimeout(syncWrapperSizeToRuntime, 2000);
+    })();
+</script>
+
+</body>
+</html>
