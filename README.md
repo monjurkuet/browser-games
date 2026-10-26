@@ -18,6 +18,11 @@ Educational collection of browser game ports for local study and reverse-enginee
 | [gladiator-slot-port](gladiator-slot-port) | Phaser 3 / Canvas | Direct port | 8792 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/730070676/index.html) |
 | [magic-lady-slot-port](magic-lady-slot-port) | Phaser 3 / Canvas | Direct port | 8893 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901663093/index.html) |
 | [magic-ace-slot-port](magic-ace-slot-port) | Custom HTML5/Canvas | Clean-room | 8139 | ✅ Verified | JDB mechanics reference |
+| [astro-slot-port](astro-slot-port) | Construct 3 | Direct port | 8157 | ✅ Verified | [TegaGame showcase](https://showcase.tegagame.com/games/slot-astro/) |
+| [dungeon-slot-port](dungeon-slot-port) | Construct 3 | Direct port | 8137 | ✅ Verified | [TegaGame showcase](https://showcase.tegagame.com/games/dungeon-slot/) |
+| [horse-slot-port](horse-slot-port) | Phaser 3 / Canvas | Direct port | 8161 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901841082/index.html) |
+| [pirates-slot-port](pirates-slot-port) | Phaser 3 / Canvas | Direct port | 8801 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/659690412/index.html) |
+| [western-slot-port](western-slot-port) | Phaser 3 / Canvas | Direct port | 8802 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/659692993/index.html) |
 
 ## Quick Start
 
@@ -52,7 +57,12 @@ browser-games/
 ├── shadow-catcher-port/        # Custom HTML5/Canvas direct port
 ├── gladiator-slot-port/        # Phaser 3 / Canvas direct port
 ├── magic-lady-slot-port/       # Phaser 3 / Canvas direct port
-└── magic-ace-slot-port/        # Custom HTML5/Canvas clean-room port
+├── magic-ace-slot-port/        # Custom HTML5/Canvas clean-room port
+├── astro-slot-port/            # Construct 3 direct port (TegaGame showcase)
+├── dungeon-slot-port/          # Construct 3 direct port (TegaGame showcase)
+├── horse-slot-port/            # Phaser 3 / Canvas direct port
+├── pirates-slot-port/          # Phaser 3 / Canvas direct port
+└── western-slot-port/          # Phaser 3 / Canvas direct port
 ```
 
 Each game directory contains:

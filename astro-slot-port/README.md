@@ -24,6 +24,8 @@ PORT=8157 HOST=127.0.0.1 node server.js
 
 The captured tree includes `capture-manifest.json`, which records the SHA-256 and byte size of every staged file. All ten audio files declared by `data.json` match their declared byte counts exactly.
 
+A local boot audit (`local-browser-audit.json`, CDP-driven Chrome with error hooks installed before navigation) confirmed: canvas 784 × 441 renders with a non-trivial payload, 20 runtime resources with zero failed requests, and zero console errors, uncaught errors, or unhandled rejections.
+
 The local server provides the MIME types required by Construct 3, returns true 404s, rejects malformed paths and traversal, supports only `GET`/`HEAD`, and disables caching for HTML/JavaScript/CSS/JSON.
 
 ## Notes

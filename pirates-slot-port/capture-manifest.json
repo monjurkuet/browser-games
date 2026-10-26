@@ -1,0 +1,662 @@
+{
+  "audio/background.wav": {
+    "bytes": 4822772,
+    "sha256": "cb1e73d195c6db98f3326456bc96360b2f55e68601504d3d759f213762330143",
+    "content_type": "audio/wav"
+  },
+  "audio/box_click.mp3": {
+    "bytes": 6320,
+    "sha256": "ae1edcfd1439540872925c0a48c5fe43013900365ee82574f66f33280f910a25",
+    "content_type": "audio/mpeg"
+  },
+  "audio/box_click.ogg": {
+    "bytes": 5233,
+    "sha256": "44393f31a72eb20a488dc5b4e36bab9da5cd82b12c6364927c9889d6b0b5b8ee",
+    "content_type": "audio/ogg"
+  },
+  "audio/button.wav": {
+    "bytes": 18566,
+    "sha256": "47a246e908d34ad53f478d8dc69b1aa195547b9c7a4be70d1d916e574d72f5dc",
+    "content_type": "audio/wav"
+  },
+  "audio/lose.wav": {
+    "bytes": 599804,
+    "sha256": "14965f372ef598ed2d1409b82c081cd0bcdba826b8c64431d20ddbd566da1a83",
+    "content_type": "audio/wav"
+  },
+  "audio/mixkit_win.wav": {
+    "bytes": 440444,
+    "sha256": "3a5e79d5109949cfb56646615a4eaeade9d0f15b843984199489e9ccfb8781cb",
+    "content_type": "audio/wav"
+  },
+  "audio/spin_sound.wav": {
+    "bytes": 1060168,
+    "sha256": "ae503ba1fbfaae713486827234b01476c0e5b247fe0fc56c185d5bc2defcccd4",
+    "content_type": "audio/wav"
+  },
+  "audio/win_coins.wav": {
+    "bytes": 285060,
+    "sha256": "7af446c3d8af3b8991b2936b969e451f03ef38dfa1545a3f35ef48e56a30f3d4",
+    "content_type": "audio/wav"
+  },
+  "fonts/DosisEB_64_0.png": {
+    "bytes": 32964,
+    "sha256": "a30df4707c9f0a800ac76269c58fbf8d79e286567309e70ef718ebc4e82ca22b",
+    "content_type": "image/png"
+  },
+  "fonts/DosisEB_64_0.xml": {
+    "bytes": 11788,
+    "sha256": "56b4f7f1a3af6bcd2afe4beeca2825ce7d1f6ee29769d0e8a1f156ffdeccec86",
+    "content_type": "application/xml"
+  },
+  "fonts/DosisEB_64_1.png": {
+    "bytes": 54010,
+    "sha256": "5957a8dc4cbc1de4d896300dd29eb0e96529fe51e21a1165d5a266133fbefb10",
+    "content_type": "image/png"
+  },
+  "fonts/DosisEB_64_1.xml": {
+    "bytes": 11788,
+    "sha256": "56b4f7f1a3af6bcd2afe4beeca2825ce7d1f6ee29769d0e8a1f156ffdeccec86",
+    "content_type": "application/xml"
+  },
+  "fonts/DosisEB_64_2.png": {
+    "bytes": 66734,
+    "sha256": "6c4c9edc9fec89f0c5eb3745451f64bd3120abfd392970ca63ba66c1ed4413ea",
+    "content_type": "image/png"
+  },
+  "fonts/DosisEB_64_2.xml": {
+    "bytes": 11788,
+    "sha256": "56b4f7f1a3af6bcd2afe4beeca2825ce7d1f6ee29769d0e8a1f156ffdeccec86",
+    "content_type": "application/xml"
+  },
+  "index.html": {
+    "bytes": 1358,
+    "sha256": "8146ea3677b44d5132fc43d6ca6fe13784151aaf3be11494b9723fdc5ee787dd",
+    "content_type": "text/html"
+  },
+  "js/mkutils.js": {
+    "bytes": 17140,
+    "sha256": "269fe627f415d115702bd2b651783e16371543a5c66d4cc28ee46496cf866e70",
+    "content_type": "text/javascript"
+  },
+  "js/phaser.js": {
+    "bytes": 7608466,
+    "sha256": "56d4154e9b267af29f460703c5abcccb9e39608b1506bd026be8a3cef2547bc6",
+    "content_type": "text/javascript"
+  },
+  "js/popups.js": {
+    "bytes": 3379,
+    "sha256": "42b332d120fa0b8f76a79e3519b2eb634a3c43b5eb7804f1f0a3efa5771a8187",
+    "content_type": "text/javascript"
+  },
+  "js/slotConfig3x5.js": {
+    "bytes": 65359,
+    "sha256": "7d3b14923bfd08a3c01d0230e5df0c980936f187113f3fbf4511442a7cd7b32e",
+    "content_type": "text/javascript"
+  },
+  "js/slotGame.js": {
+    "bytes": 35694,
+    "sha256": "76ebd5838a5076108838359279e7da317f4a2c2f1b1dba180e4a3f4cd23f290a",
+    "content_type": "text/javascript"
+  },
+  "js/slot_classes.js": {
+    "bytes": 62199,
+    "sha256": "d6208ad176f166ff9bb9f23289b6595ca152cc5512a20c7f1b0171aedbfdc79b",
+    "content_type": "text/javascript"
+  },
+  "js/state_machine.js": {
+    "bytes": 36794,
+    "sha256": "d0f1a33defaecefee276471e6c968a8c0cff01e957f5eee730e3eb9ab7ca57be",
+    "content_type": "text/javascript"
+  },
+  "png/Background_1.png": {
+    "bytes": 3000731,
+    "sha256": "48a63534e4df6db459f3eca9015ca6148eb65deef090df7772021a67673f4287",
+    "content_type": "image/png"
+  },
+  "png/ButtonAutoSpin.png": {
+    "bytes": 19231,
+    "sha256": "ef31350d4b4c60f9715da75231204bc7232d50ec1052f56255c4f41664503c60",
+    "content_type": "image/png"
+  },
+  "png/ButtonAutoSpinHover.png": {
+    "bytes": 17463,
+    "sha256": "0009d4d971ddcc198445b70ed151b02e4311ee329107496f2300d391665b4fbf",
+    "content_type": "image/png"
+  },
+  "png/ButtonHold.png": {
+    "bytes": 12563,
+    "sha256": "5a29cd3b587d9dff22e8824cee824e4954c499e0d38b669d35767f7259c97ca4",
+    "content_type": "image/png"
+  },
+  "png/ButtonHoldOn.png": {
+    "bytes": 10962,
+    "sha256": "a14c02174fe8b17f335a32f97a4e2f7f935c5b7a83e1a848a15d83389bac99ad",
+    "content_type": "image/png"
+  },
+  "png/ButtonInfo.png": {
+    "bytes": 13916,
+    "sha256": "5e90edd6104819e0cf4a512307c60ff00795d65e6824abc285cc4a6b2033c060",
+    "content_type": "image/png"
+  },
+  "png/ButtonInfoHover.png": {
+    "bytes": 13561,
+    "sha256": "c87f251290efd6d08a5578741fa08df12a9cc8567c74f4794c4c91005e46cdda",
+    "content_type": "image/png"
+  },
+  "png/ButtonMaxBet.png": {
+    "bytes": 19263,
+    "sha256": "1476b988db770e9139fc0e7ebaeb27f76daf3f7e10e39829e41dded595125427",
+    "content_type": "image/png"
+  },
+  "png/ButtonMaxBetHover.png": {
+    "bytes": 17373,
+    "sha256": "03ab17b34080b2a126e191a5528b2ace052bf983ef58bc0646bcef5f1afcd01a",
+    "content_type": "image/png"
+  },
+  "png/ButtonMenu.png": {
+    "bytes": 15716,
+    "sha256": "f39a776dedb5d11b37b3c1b66c1fb209d2c8638f9090f079c0400e4113f82a9f",
+    "content_type": "image/png"
+  },
+  "png/ButtonMenuHover.png": {
+    "bytes": 14031,
+    "sha256": "64670674489f941b5b3a312e849998d2e4c19416b722a149f3fa6d40a493e7e1",
+    "content_type": "image/png"
+  },
+  "png/ButtonMinus.png": {
+    "bytes": 7423,
+    "sha256": "c464785bf592423acd979abc273734c93db2eee172a4642ff09bfa0042facc9e",
+    "content_type": "image/png"
+  },
+  "png/ButtonMinusHover.png": {
+    "bytes": 7315,
+    "sha256": "79ecd878e923a0e0dd497b8f3433922decd4d29fe9ef591696166c84211cae1d",
+    "content_type": "image/png"
+  },
+  "png/ButtonPlus.png": {
+    "bytes": 7667,
+    "sha256": "5108109160b5ffca9ae12e910df1764b529427eefd23f40347ecfb3c02d6ecd8",
+    "content_type": "image/png"
+  },
+  "png/ButtonPlusHover.png": {
+    "bytes": 7498,
+    "sha256": "43eaee106c572989c020c996b7d996c96d42b4a55d8080e2cdfaa0b9d81a5f26",
+    "content_type": "image/png"
+  },
+  "png/ButtonRules.png": {
+    "bytes": 13804,
+    "sha256": "df16ddecd4d1f20d31d631c5d63d4daf2eecb539b69f4755d62ab72fd5a3a3f7",
+    "content_type": "image/png"
+  },
+  "png/ButtonRulesHover.png": {
+    "bytes": 13471,
+    "sha256": "5fccd67831eebe8f97eae48b7d5126717b847e7ea18228c16785635ea8b45681",
+    "content_type": "image/png"
+  },
+  "png/ButtonSettings.png": {
+    "bytes": 14485,
+    "sha256": "e2af43d26526097d553994b59d460a35c940c5ceaa668d126381bf87606c9877",
+    "content_type": "image/png"
+  },
+  "png/ButtonSettingsHover.png": {
+    "bytes": 13982,
+    "sha256": "2ef3873fa0ef2c110984be8198fbf08d4dcd6761d440e5dc9776d9af22c0f064",
+    "content_type": "image/png"
+  },
+  "png/ButtonSpin.png": {
+    "bytes": 25813,
+    "sha256": "2a7a77a06fc0ca2f723dd5137c4d1320bc66fb6142620880315671fe6ad7d072",
+    "content_type": "image/png"
+  },
+  "png/ButtonSpinHover.png": {
+    "bytes": 23449,
+    "sha256": "a8d544a022646db6acdfea2e5576e950d82d820886af6705c7bdcc4f565eb1e0",
+    "content_type": "image/png"
+  },
+  "png/CoinSheet.png": {
+    "bytes": 78656,
+    "sha256": "42dc37431c04b43e38b447fadc929a8d13602a53a7413c23951de6a26607a506",
+    "content_type": "image/png"
+  },
+  "png/JPPanel.png": {
+    "bytes": 52571,
+    "sha256": "3329fceb006a9b46d82105c936e6bebeb7f745fe4b6daef810670bed0b86db5e",
+    "content_type": "image/png"
+  },
+  "png/Lantern.png": {
+    "bytes": 40821,
+    "sha256": "b7362109ee93f1a35d85f110079ef17f1beecb3afcbf23bcf5f47a29d1a8e848",
+    "content_type": "image/png"
+  },
+  "png/PanelBalance.png": {
+    "bytes": 4238,
+    "sha256": "f0335a1a5a900a1c10647cb8862a176b9e2a5f2021d7094bbe616eb5bd506051",
+    "content_type": "image/png"
+  },
+  "png/PanelLines.png": {
+    "bytes": 4218,
+    "sha256": "41235476d50dab19ddd4880f2b526e2badc87deecdd12f9e7ed60434c89f8a68",
+    "content_type": "image/png"
+  },
+  "png/PanelTotalBet.png": {
+    "bytes": 4238,
+    "sha256": "f0335a1a5a900a1c10647cb8862a176b9e2a5f2021d7094bbe616eb5bd506051",
+    "content_type": "image/png"
+  },
+  "png/PanelWin.png": {
+    "bytes": 4218,
+    "sha256": "41235476d50dab19ddd4880f2b526e2badc87deecdd12f9e7ed60434c89f8a68",
+    "content_type": "image/png"
+  },
+  "png/ReelHolderBot.png": {
+    "bytes": 119593,
+    "sha256": "cc937938005ada7338745136795f64e414a7a0a0b6962abfcbca695218c9ae83",
+    "content_type": "image/png"
+  },
+  "png/ReelHolderTop.png": {
+    "bytes": 121772,
+    "sha256": "cc79906b6550670578b253e4b99e773eeebdf1dd1f4d9824512349fffaebae02",
+    "content_type": "image/png"
+  },
+  "png/SlotMachine_3x5.png": {
+    "bytes": 51293,
+    "sha256": "59601ab3b24dfea919007285a958db19c74a6502d8b0c4b0bc253b4395925842",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Bag.png": {
+    "bytes": 75704,
+    "sha256": "4ff4277001b4d79f7093a9c76962dd24c3a3b0ce66e2bce710f8b83967286517",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Cross.png": {
+    "bytes": 44952,
+    "sha256": "90e0cdabcfd717217a8b4f4ca1b2b438c0504e57f6f1772f16a60c1816ab6851",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Diamonds.png": {
+    "bytes": 46857,
+    "sha256": "d415c5a9ed4e57c8cacb5c8030ecc37adc8413789dca915ff0d5ea1277411351",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Hearts.png": {
+    "bytes": 43027,
+    "sha256": "b423ee0fa9923feacbe82ba4ae80694a1261960d12e34c37367088fd1f9d6ace",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Jackpot.png": {
+    "bytes": 115051,
+    "sha256": "9de7968314a29c7063ab84fd5df10d5b4195bc14e94c3f85706003d6b501e211",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Peaks.png": {
+    "bytes": 47609,
+    "sha256": "beb6a3c5305a38f085630af59036afd5a709e6982c4e521612a0c1d3dd926c6c",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Pistol.png": {
+    "bytes": 85664,
+    "sha256": "5b79fe74ece87f2d041ec4f0a3a83c5d0ee51ab8ad8744f4c52be3ffc8765f4d",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Saber.png": {
+    "bytes": 82320,
+    "sha256": "03745f5b108fda1faca58ed15500d299b1a196b1a3247b18fe1039bfdb093a74",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Scatter.png": {
+    "bytes": 109748,
+    "sha256": "a31682635915e15708fee0be944e06959c89108aa8ff7f00b99c6a9d6e4743f7",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Smoke.png": {
+    "bytes": 83873,
+    "sha256": "d51b68c5747bcfe2dc7e93ea3600d4de3eaf689aa8cd17f8f042513a25e199e5",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Spyglass.png": {
+    "bytes": 78080,
+    "sha256": "9f94a6f7b647273847ea5dbf9b5902a62ee606a929d962abfc5cfb408de7a9c6",
+    "content_type": "image/png"
+  },
+  "png/Symbols/Wild.png": {
+    "bytes": 117332,
+    "sha256": "607eaf945f78ed9511c07473e7665aab9200221e560e3abbaefbd8ce6eb226f2",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/BagBlurred.png": {
+    "bytes": 90296,
+    "sha256": "8efb67334c00e48703f1a8ceeca94194ebde36cc7582651af85965c9d8599a09",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/CrossBlurred.png": {
+    "bytes": 68268,
+    "sha256": "cb840a5fc9ca737c974f8b62d2b0ec5ab8d0db4fceda4064136cbcbc2f0c5a48",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/DiamondsBlurred.png": {
+    "bytes": 67342,
+    "sha256": "5e500c4455147d1b4379e01ffc654ae150be6e3c53d9e5158829e261aa2186c0",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/HeartsBlurred.png": {
+    "bytes": 69692,
+    "sha256": "cc8386512431faceea30a8aaa6780d0c87be94c24c5901e5a872bfe6b1bacc8d",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/JackpotBlurred.png": {
+    "bytes": 94088,
+    "sha256": "b542698e1f11787962cfa82b75b8269ba09fa0fa180db86f4362940c94e29f4b",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/PeaksBlurred.png": {
+    "bytes": 72253,
+    "sha256": "59114725e433af4e17a0ee47f06fd315c15fc45f76640136683390cc9d959604",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/PistolBlurred.png": {
+    "bytes": 85802,
+    "sha256": "507e1692d836515e2441a20075f2ae62e7d8785536994e29df03236307bedc2e",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/SaberBlurred.png": {
+    "bytes": 81673,
+    "sha256": "b9cc8caa5a32bbee8683e0adebfb06043718992fa824c45f17b7256d655c814d",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/ScatterBlurred.png": {
+    "bytes": 94145,
+    "sha256": "6e2470798773ace6f11714b2d364d4d829dbab223b23142ecfdf4d5b17d26792",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/SmokeBlurred.png": {
+    "bytes": 91738,
+    "sha256": "b8f65a69cd9a2c54d5101fd8d7ec88ea91cc7a286baa53d1e760bcacf8d0e393",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/SpyglassBlurred.png": {
+    "bytes": 80973,
+    "sha256": "bf3d626c2497d5ebc0a46b080b3cbe8478e01066439b28ab1d147089265fee44",
+    "content_type": "image/png"
+  },
+  "png/SymbolsBlurred/WildBlurred.png": {
+    "bytes": 97122,
+    "sha256": "a7ca39a287cc06a3522eaed19a77ad82787ed1ce753dd468c795976fa13a7c9d",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/BagSheet.png": {
+    "bytes": 1307492,
+    "sha256": "8e06ca20df86cb82b640cb00c4a09c388c2ec14dfcb99cbe9e5de81bc3af6cab",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/CrossSheet.png": {
+    "bytes": 1084779,
+    "sha256": "15967b7175e5287a04ab94aef56f662a266acb7cb77b64e867495225b8d1697b",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/DiamondsSheet.png": {
+    "bytes": 971509,
+    "sha256": "47e01bbd996bc592cc855b4a75a5cae76d1f3374bee789e45f39a9d6d4cde66b",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/HeartsSheet.png": {
+    "bytes": 1022487,
+    "sha256": "dd3273cee4e05e58ebe1259a038eea15aaefb317ecd69f079a7b3d5c06212e8c",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/JackpotSheet.png": {
+    "bytes": 2241223,
+    "sha256": "5052b6924972c482fb737dbe429bec151fabf3e1a54a64a72bd3e345eac84d38",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/PeaksSheet.png": {
+    "bytes": 1140673,
+    "sha256": "4c76152152cf33675260de8996f68d41120bbbacc5eba4f9d8b7c4fdc9e7ce03",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/PistolSheet.png": {
+    "bytes": 1284136,
+    "sha256": "eeb4ea39032ac6940e9fbb90fbc7a7528637e82e4beea7e2a38c75ed491d5eac",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/SaberSheet.png": {
+    "bytes": 1058621,
+    "sha256": "2f3fbb45c8bf0a7ca0ada14da5e02177073a6ab74191f879d2fad1170be3dafb",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/ScatterSheet.png": {
+    "bytes": 2113174,
+    "sha256": "8a06c037ee2f3e03ac149dded91ca92eae616fc7a1d01a2e4a5eddc91c10420b",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/SmokeSheet.png": {
+    "bytes": 1256212,
+    "sha256": "ff70f4c96ee16a5535d031fa89b942a367dbf4a7e957633e133f7fb3f92fef4d",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/SpyglassSheet.png": {
+    "bytes": 1181146,
+    "sha256": "33d128d71b70da52da74b6b90e45212b21bae896520e54499788656a27ba4c3a",
+    "content_type": "image/png"
+  },
+  "png/SymbolsSheet/WildSheet.png": {
+    "bytes": 2285910,
+    "sha256": "5472cd3c9b06acc3256d29c4b10177736167e32f3e700f584b15c06e1785583e",
+    "content_type": "image/png"
+  },
+  "png/gui/AboutPanel.png": {
+    "bytes": 40129,
+    "sha256": "d0dffb1d04236bcdc6983b9c5c6e9dbd8a3dc197781e0e111ddfdb10edb8bef7",
+    "content_type": "image/png"
+  },
+  "png/gui/BigWinPanel.png": {
+    "bytes": 240420,
+    "sha256": "dccd8713626e450c4f725c49117a289fc473c010c8c3db011fcabc515cdac4cf",
+    "content_type": "image/png"
+  },
+  "png/gui/Bomb.png": {
+    "bytes": 43356,
+    "sha256": "ff16adc232a87b696954c8bfde1808a69c6700e02fde844c306e87423edb4d9c",
+    "content_type": "image/png"
+  },
+  "png/gui/BoxSpot.png": {
+    "bytes": 21156,
+    "sha256": "a6951fe11af1a91d6e785d6a8046f3eac90e0fb0e6a89c8644197e0b3eaeca2d",
+    "content_type": "image/png"
+  },
+  "png/gui/ButtonOff.png": {
+    "bytes": 12643,
+    "sha256": "3d786dbc088dc145978960b700be98820fb411f6687e50da27a6a49b7e314eb6",
+    "content_type": "image/png"
+  },
+  "png/gui/ButtonOn.png": {
+    "bytes": 12596,
+    "sha256": "c86c90277283b6e063385bfaafe625a63d29465ba9060ebae6c87db847f1a10a",
+    "content_type": "image/png"
+  },
+  "png/gui/ExitButton.png": {
+    "bytes": 4539,
+    "sha256": "7af93dbc94314bc3f14e9565c1d59461220bd35889b3d861c1088da42066d72f",
+    "content_type": "image/png"
+  },
+  "png/gui/ExitButtonHover.png": {
+    "bytes": 5444,
+    "sha256": "f2bb87c13abbb5fd703c7dd0242a6c0980a1ac1b1376e249eef0a64db7748c37",
+    "content_type": "image/png"
+  },
+  "png/gui/ExtraLongButton.png": {
+    "bytes": 28117,
+    "sha256": "4623f0cc2e91251504888fb105424ae7dd4cffaf2e873e6aa89e7abfb72029c0",
+    "content_type": "image/png"
+  },
+  "png/gui/ExtraLongButtonHover.png": {
+    "bytes": 25951,
+    "sha256": "06dfabfd87c6faf07e15dbdd26acbc3b5bc3e2b503e919a70576d359b3e2007e",
+    "content_type": "image/png"
+  },
+  "png/gui/FreeSpinTitle.png": {
+    "bytes": 187861,
+    "sha256": "009557a65aa445b9c85196a5d262991d56ec323beccec56c329de5a2b7f9d264",
+    "content_type": "image/png"
+  },
+  "png/gui/GiftBoxClosed.png": {
+    "bytes": 98538,
+    "sha256": "316fde47d2410453f1d508f0835b6f2a3b7722d62e975c78f695a2103261bd72",
+    "content_type": "image/png"
+  },
+  "png/gui/GiftBoxOpened.png": {
+    "bytes": 98969,
+    "sha256": "77336a4eeffcc633b00603febcbd1c77ba817443ffd9ea2d63412716733cb212",
+    "content_type": "image/png"
+  },
+  "png/gui/HelpTitle.png": {
+    "bytes": 286452,
+    "sha256": "90337918f03bf46eede2a0f34c262e14f7e968362f282a6fec0f4a659db8c1bb",
+    "content_type": "image/png"
+  },
+  "png/gui/HugeWinPanel.png": {
+    "bytes": 368798,
+    "sha256": "12e1a5ed71060b930b459a530f6771119ae5d07745402102d26c0a6a0b8d892a",
+    "content_type": "image/png"
+  },
+  "png/gui/InfoPanel.png": {
+    "bytes": 231609,
+    "sha256": "2274759633a7b607308f430b75add21d4b6a9f52491fe0dd5e41562ddece996b",
+    "content_type": "image/png"
+  },
+  "png/gui/JackpotWinPanel.png": {
+    "bytes": 348120,
+    "sha256": "d782e57857befba8b4dc008adc8504829c7e1689b995d33df37ac7fd8f025e50",
+    "content_type": "image/png"
+  },
+  "png/gui/Logo.png": {
+    "bytes": 25898,
+    "sha256": "7464ff1feb7893212d59beeceb2c6d1e6331fa59bdff23249fff7bb9239da7b9",
+    "content_type": "image/png"
+  },
+  "png/gui/LongButton.png": {
+    "bytes": 27177,
+    "sha256": "a31196bde967d804d54d1092741d54458b25f9b21ce8234d7e9c34aca4046cca",
+    "content_type": "image/png"
+  },
+  "png/gui/LongButtonHover.png": {
+    "bytes": 25071,
+    "sha256": "02e4db58a5128f3c95fc406edfca82e98363479452defc6fd08a575971227517",
+    "content_type": "image/png"
+  },
+  "png/gui/MajorTitle.png": {
+    "bytes": 23860,
+    "sha256": "aff505d43319fd7b7f92bc4d92167f1af39895da8d08cc0e0e5327bf495ce173",
+    "content_type": "image/png"
+  },
+  "png/gui/MegaWinPanel.png": {
+    "bytes": 315059,
+    "sha256": "28d23cb106e62458979b3eb1f777e5500d0c9bb885d84da35cf8c618733b0cae",
+    "content_type": "image/png"
+  },
+  "png/gui/MessagePanel.png": {
+    "bytes": 39751,
+    "sha256": "299d4f78df5a0c13722e340828e6737bb6da97fbd1561ff4975241a56d34c13d",
+    "content_type": "image/png"
+  },
+  "png/gui/MiddleButton.png": {
+    "bytes": 21946,
+    "sha256": "283490b09fa5381bb3e405ecbbd302644fce293092e12bd4003ce5119a4d6273",
+    "content_type": "image/png"
+  },
+  "png/gui/MiddleButtonHover.png": {
+    "bytes": 20038,
+    "sha256": "0a27023cc4b67c3da92a793329c61e3921d5273bdb17f93c16a635e1adeeb5eb",
+    "content_type": "image/png"
+  },
+  "png/gui/MinorTitle.png": {
+    "bytes": 22681,
+    "sha256": "0c280de79c439974940ea7d14398a332ed9a1fcc7c9d4416fd57ade8fd010be9",
+    "content_type": "image/png"
+  },
+  "png/gui/MusicOff.png": {
+    "bytes": 5994,
+    "sha256": "6c5554b5735c6c40bba722cbb92cc7643f61b81a301f2ee128e8095f2d99444e",
+    "content_type": "image/png"
+  },
+  "png/gui/MusicOn.png": {
+    "bytes": 5381,
+    "sha256": "7c7a259195a629fc2b7156ffe561104e1e51c81d65bf87111ba495f3395414d4",
+    "content_type": "image/png"
+  },
+  "png/gui/NextButton.png": {
+    "bytes": 6649,
+    "sha256": "961686b95295c81f308348bcdf2c846b1512206febd3936d9183a75f7fff868b",
+    "content_type": "image/png"
+  },
+  "png/gui/NextButtonHover.png": {
+    "bytes": 6418,
+    "sha256": "88bb08fa87bf0a1a499222c00e3470fbb7fba5033fd0722d681ed6199ecd7929",
+    "content_type": "image/png"
+  },
+  "png/gui/PopUpFlag.png": {
+    "bytes": 71321,
+    "sha256": "ac8a8526f997a8d0157e12631b3f7858f8b276ca4aa854e05932f23141bf5b37",
+    "content_type": "image/png"
+  },
+  "png/gui/PrevButton.png": {
+    "bytes": 6741,
+    "sha256": "a18df8b59e96e24330a5828cfef8cf354d80f8fc4cd0f77188913ecb10eca8f5",
+    "content_type": "image/png"
+  },
+  "png/gui/PrevButtonHover.png": {
+    "bytes": 6476,
+    "sha256": "43385d19764b5185d1242422b00a65d6bd268828e3ba47ced9ec6a1691cf9abb",
+    "content_type": "image/png"
+  },
+  "png/gui/RulesTitle.png": {
+    "bytes": 9897,
+    "sha256": "be891d2aec945cd46d5dff1ee4c105397f4f58ddc997d10210509fbb94a48aaa",
+    "content_type": "image/png"
+  },
+  "png/gui/SettingsPanel.png": {
+    "bytes": 182363,
+    "sha256": "63ae2d5a3e2ab33b94e09891078c5da821e2e7c2075d63f386e2108cd84eb2ba",
+    "content_type": "image/png"
+  },
+  "png/gui/SettingsTitle.png": {
+    "bytes": 281938,
+    "sha256": "d2668a21425102064734f49c84334d9d050dbaf6e3c51675b256bbaa3d5edcf2",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallButton.png": {
+    "bytes": 18317,
+    "sha256": "2017d81d15fa0cd2bdca8323eb8ef8d087df3aa828f171f8dfd3ea805161d78c",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallButtonHover.png": {
+    "bytes": 16847,
+    "sha256": "55d8cd4aa9bc53327b375b3052222e412d17d7fe4cf0584b6ad5edcc2910f5ff",
+    "content_type": "image/png"
+  },
+  "png/gui/SmallMessagePanel.png": {
+    "bytes": 28412,
+    "sha256": "b6dbc59e9e1557046b88308a84575b2343606b834562b828051a542f6deb70fe",
+    "content_type": "image/png"
+  },
+  "png/gui/SoundOff.png": {
+    "bytes": 5766,
+    "sha256": "a494f39f0e1961222bbbc53ca3693feb35e13b5101efe3198395c5c76cba35ae",
+    "content_type": "image/png"
+  },
+  "png/gui/SoundOn.png": {
+    "bytes": 5925,
+    "sha256": "bb969b319c548182b72635c69a1b667df09df275ed68bea00e1445c1593664da",
+    "content_type": "image/png"
+  },
+  "png/gui/SpecialTitle.png": {
+    "bytes": 24965,
+    "sha256": "211a2b62c41baf0c50d0cbd7154ee310604f541f0da8b4c2226a914b9d02ccd4",
+    "content_type": "image/png"
+  },
+  "png/gui/whiteBkg.png": {
+    "bytes": 933,
+    "sha256": "6036869455af787d321e71666275eb9fe79b066d6a9ba8c77590f18fce3851c9",
+    "content_type": "image/png"
+  }
+}
