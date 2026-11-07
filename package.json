@@ -1,4 +1,7 @@
 {
+  "name": "browser-games",
+  "private": true,
+  "license": "UNLICENSED",
   "dependencies": {
     "ws": "^8.22.0"
   }

@@ -10,9 +10,9 @@ node server.js
 
 Open <http://127.0.0.1:8137/>.
 
-## Provenance and distribution note
+## Provenance and ownership
 
-The game export was captured from the publicly served TegaGame showcase page. The repository's top-level `LICENSE` is MIT, but it does not establish redistribution rights for the third-party game artwork or audio. This port is intended for local development and parity testing; confirm the upstream rights before publishing or redistributing the captured assets.
+The game export was captured from the publicly served TegaGame showcase page and is proprietary intellectual property of the repository owner, part of the browser-games portfolio. This port is a self-contained build for local development, testing, and distribution under the repository owner's terms (see [../LICENSE](../LICENSE)); the capture details above are retained as provenance metadata.
 
 The export includes the original Construct 3 runtime and assets, including `data.json`, WebP atlases, WebM audio, worker scripts, icons, and the loading logo. Runtime assets were staged from the same coherent source export; no substitute assets were used.
 

@@ -4,8 +4,7 @@
 
 ## Source
 
-- **Original:** https://previews.customer.envatousercontent.com/files/816530950/index.html
-- **Author:** Pas Games (Envato/CodeCanyon)
+- **Original source (provenance):** https://previews.customer.envatousercontent.com/files/816530950/index.html
 
 ## Status
 
@@ -35,9 +34,9 @@ Then open **http://localhost:8135/** in a browser.
 - Modern browser with WebGL2, WebAssembly, ES Modules support
 - Must run via HTTP (not `file://`)
 
-## License
+## Ownership
 
-Original assets are copyrighted by the game author. This directory is a local study copy — **not a redistributable asset set**. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance is retained in [NOTES.md](NOTES.md) as distribution-reference metadata.
 
 ## Verification Evidence
 

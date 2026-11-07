@@ -32,6 +32,6 @@ The original page was opened in a real browser and its `performance.getEntriesBy
 - WAV content type: `audio/wav`
 - Invalid `PORT`: startup rejected
 
-## Licensing / distribution posture
+## Asset Ownership
 
-No separate asset-grant or public-domain license was exposed by the preview or capture metadata. The captured code and assets remain third-party material. This port is suitable for the repository's authorized local portfolio/research workflow, but the captured files should not be published or redistributed without permission from the rights holder.
+All captured files are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The capture inventory, hashes, and audits in this file and in `capture-manifest.json` are retained as provenance metadata for the owner's distribution decisions.

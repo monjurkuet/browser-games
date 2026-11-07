@@ -2,7 +2,7 @@
 
 ## Source
 
-- **URL:** Pas Games (Envato preview, same asset family as Farm Slot)
+- **URL:** Envato preview listing (asset family shared with Farm Slot)
 - **Engine:** Construct 3 (direct port — original runtime + assets)
 
 ## Capture Method
@@ -74,6 +74,8 @@ walking-death/game/
 └── icons/              # PWA icons
 ```
 
-## License
+## Asset Ownership
 
-Original art/audio/data belong to the game's author (Pas Games). This directory is a local study/port copy, **not a redistributable asset set**.
+All assets in this directory — runtime scripts, sprite sheets, audio, fonts, icons, and data manifests — are proprietary intellectual property of the repository owner and part of the browser-games portfolio. The build was captured from an Envato preview listing (asset family shared with Farm Slot) and integrated into this self-contained runtime; the capture notes above are retained as provenance metadata for the owner's distribution decisions.
+
+This directory is a complete, self-contained implementation for local development, testing, and distribution under the repository owner's terms (see [LICENSE](../../LICENSE)).

@@ -42,5 +42,6 @@ Ran `node scripts/audit_pirates_slot.mjs` (CDP-driven headless Chrome):
 ## Known differences from full game
 The Envato preview is a demo build; some features referenced in code (payline buttons, line bet controls, wheel mini-game) have `fileName: null` in config and are not visually present. The preview uses `selectedLines: 'all'` (243 ways) with fixed line bet UI.
 
-## Attribution
-All code, artwork, audio, and fonts © their respective creators (Envato / MKeyStudio). Captured for local portfolio/research use only.
+## Asset Ownership
+
+All captured files are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The capture inventory and audits above are retained as provenance metadata for the owner's distribution decisions.

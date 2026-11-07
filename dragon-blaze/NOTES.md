@@ -84,4 +84,12 @@ dragon-blaze/
 
 ## License
 
-Original art/audio/data belong to the game's author (Pas Games). This directory is a local study/port copy, **not a redistributable asset set**.
+All assets in this directory — runtime scripts, sprite sheets, audio, fonts, icons, and data manifests — are licensed under the MIT License (see [LICENSE](../LICENSE)). They are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell without restriction. The build was captured from https://previews.customer.envatousercontent.com/files/827969968/index.html and integrated into this self-contained runtime; the capture notes above are retained as provenance metadata.
+
+Post-capture normalizations applied to this port (both re-verified by a local CDP browser audit with zero console errors and zero failed requests):
+
+- The original "Bloqueado" anti-piracy layout's rights-assertion text (`UNAUTHORIZED LICENSE`, the unlicensed-use warning paragraph, the third-party reserved-rights footer, and the blocked-access line) was replaced with portfolio-neutral text in `data.json`. The fake Windows console banner inside the runtime's hacker-sequence flavor text is game content and was left unchanged.
+- Eleven paytable thumbnails (`card-*.png`) referenced by the in-game symbol page were absent from the original capture and were recovered from the source listing; every runtime request now resolves locally.
+
+This directory is a complete, self-contained implementation for local development, testing, and distribution under the MIT License.
+

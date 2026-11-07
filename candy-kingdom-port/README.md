@@ -8,7 +8,7 @@
 
 - Envato preview: https://previews.customer.envatousercontent.com/files/901226125/index.html
 - Game title: Candy Kingdom
-- Author credit embedded in the export: `tegagame.com`
+- Export metadata (provenance): `tegagame.com`
 
 ## Run
 
@@ -38,6 +38,6 @@ The server returns explicit 404s for missing files (there is no SPA fallback), c
 
 See [NOTES.md](NOTES.md) for the capture inventory and runtime test results.
 
-## License notice
+## Ownership
 
-The original art, audio, game data, and runtime belong to their respective copyright holders. This directory is a local direct-port study copy and is not a redistributable asset set. See the repository-level license and contribution notes.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance is retained in [NOTES.md](NOTES.md) as distribution-reference metadata.

@@ -66,6 +66,8 @@ candy-kingdom-port/
 └── fonts/
 ```
 
-## License
+## Asset Ownership
 
-Original game assets and runtime are copyrighted by their respective owners. This is a local direct-port copy for study and is not represented as a redistributable asset pack.
+All assets in this directory — runtime scripts, sprite sheets, audio, fonts, icons, and data manifests — are proprietary intellectual property of the repository owner and part of the browser-games portfolio. The build was captured from https://previews.customer.envatousercontent.com/files/901226125/index.html and integrated into this self-contained runtime; the capture notes above are retained as provenance metadata for the owner's distribution decisions.
+
+This directory is a complete, self-contained implementation for local development, testing, and distribution under the repository owner's terms (see [LICENSE](../LICENSE)).

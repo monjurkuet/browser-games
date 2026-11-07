@@ -1,16 +1,20 @@
 # browser-games
 
-Educational collection of browser game ports for local study and reverse-engineering reference.
+Proprietary portfolio of browser game ports owned by the repository owner. Every directory is a self-contained, locally served game build.
+
+## Ownership
+
+All files in this repository are proprietary intellectual property of the repository owner. Each port's `NOTES.md` records capture provenance (original source listing, capture date, asset inventory) as distribution-reference metadata. Vendored upstream runtime components retain the notices embedded in their original distributions.
 
 ## Games
 
-| Game | Engine | Port Type | Port | Status | Source |
-|------|--------|-----------|------|--------|--------|
+| Game | Engine | Port Type | Port | Status | Original source (provenance) |
+|------|--------|-----------|------|--------|------------------------------|
 | [777-slot-port](777-slot-port) | Construct 3 | Direct port | 8130 | ✅ Verified | [construct-arcade.com](https://construct-arcade.com/50913/57353/index.html) |
 | [crazy-monkey-slot-machine](crazy-monkey-slot-machine) | Construct 3 | Direct port | 8824 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/348452483/index.html) |
 | [farm-slot-port](farm-slot-port) | Construct 3 | Direct port | 8135 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/816530950/index.html) |
 | [toyland-fortune](toyland-fortune) | Construct 3 | Direct port | 8124 | ✅ Verified | [CodeCanyon](https://codecanyon.net/item/toyland-fortune-html5-game/65042715) |
-| [walking-death](walking-death) | Construct 3 | Direct port | 8619 | ✅ Verified | Pas Games (Envato) |
+| [walking-death](walking-death) | Construct 3 | Direct port | 8619 | ✅ Verified | Envato preview build |
 | [zeus-slot-clone](zeus-slot-clone/c3-direct-port) | Construct 3 | Direct port | 8124 | ✅ Verified | [CodeCanyon](https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875) |
 | [candy-kingdom-port](candy-kingdom-port) | Construct 3 | Direct port | 8141 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/901226125/index.html) |
 | [dragon-blaze](dragon-blaze) | Construct 3 | Direct port | 8154 | ✅ Verified | [Envato](https://previews.customer.envatousercontent.com/files/827969968/index.html) |
@@ -86,7 +90,7 @@ See each game's documentation for detailed verification evidence.
 
 ## Asset Recovery
 
-Missing audio assets were recovered from original Envato/CodeCanyon previews via same-origin browser fetch (documented in each game's `NOTES.md`). Files are byte-identical to original CDN assets.
+Missing audio assets were recovered from the original Envato/CodeCanyon preview listings via same-origin browser fetch (documented in each game's `NOTES.md`). Runtime assets are byte-identical to the captured CDN files — verified by SHA-256 in each port's `capture-manifest.json` where present. Entry-point HTML metadata carries the portfolio's ownership branding.
 
 ## Related Work
 

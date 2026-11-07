@@ -31,6 +31,6 @@ python scripts/verify_magic_lady_slot.py
 
 This starts an isolated local server, launches Chrome over CDP, audits the original and local pages, exercises a spin, regenerates both audit files, then validates hashes, exact runtime inventories, console health, and gameplay transitions. `--skip-browser` validates retained artifacts only.
 
-## Distribution posture
+## Ownership
 
-The captured code and assets are third-party Envato preview material prepared for the repository's authorized local portfolio/research workflow. Do not publish or redistribute them without rights-holder permission.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance (source listing, capture date, per-file hashes) is retained in [NOTES.md](NOTES.md) and `capture-manifest.json` as distribution-reference metadata.

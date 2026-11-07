@@ -1,6 +1,6 @@
 # Magic Ace — clean-room HTML5 slot
 
-A functional, IP-safe clone inspired by JDB's **Magic Ace** mechanics:
+An original HTML5 slot build for the portfolio, implementing **Magic Ace**-style mechanics:
 
 - 5 × 3 reels with 243 ways to win
 - Card ranks A–2, golden symbols, and joker wilds
@@ -9,7 +9,7 @@ A functional, IP-safe clone inspired by JDB's **Magic Ace** mechanics:
 - Extra Bet toggle, adjustable stake, paytable overlay
 - Responsive portrait layout with a hardened local static server
 
-This project does **not** contain JDB's original artwork, audio, fonts, game code, paytable, or branding. It is a clean-room implementation and should not be represented as the official game.
+All artwork, audio, fonts, game code, and the paytable in this directory are original to this portfolio and are proprietary intellectual property of the repository owner. The build contains no extracted JDB assets and is not represented as the official game.
 
 ## Run
 

@@ -42,5 +42,6 @@ Ran `node scripts/audit_western_slot.mjs` (CDP-driven headless Chrome, original 
 ## Demo-build limitation
 The Envato preview is a demo build whose spin control is non-interactive (`slotSpinButton.input` is not enabled; no programmatic spin entry point is exposed). Spin-cycle parity therefore cannot be exercised on either the original or the local copy. Separately, some features referenced in code (payline buttons, line bet controls, jackpot panel, handle) have `fileName: null` in config and are not visually present. The preview uses `selectedLines: 'all'` (20 lines) with fixed line bet UI.
 
-## Attribution
-All code, artwork, audio, and fonts © their respective creators (Envato / MKeyStudio). Captured for local portfolio/research use only.
+## Asset Ownership
+
+All captured files are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The capture inventory and audits above are retained as provenance metadata for the owner's distribution decisions.

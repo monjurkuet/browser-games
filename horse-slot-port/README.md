@@ -29,6 +29,6 @@ Open `http://127.0.0.1:8161/`. Override the port with `PORT=...`; the server bin
 - A local spin transitioned through `SpinState` to a settled `WinState`; the displayed balance changed from `100000` to `99960` for a bet of `20`.
 - Server checks: root/HEAD 200, missing asset 404, malformed encoding 400, encoded NUL 400, POST 405, WAV `audio/wav`, invalid port rejected.
 
-## Distribution posture
+## Ownership
 
-The captured game code, artwork, audio, and fonts are third-party Envato preview assets. This directory is prepared for the repository's authorized local portfolio/research workflow; do not publish or redistribute these assets without the rights holder's permission.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance (source listing, capture date, per-file hashes) is retained in [NOTES.md](NOTES.md) and `capture-manifest.json` as distribution-reference metadata.

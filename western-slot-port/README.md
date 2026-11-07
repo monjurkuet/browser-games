@@ -30,6 +30,6 @@ Open `http://127.0.0.1:8802/`. Override the port with `PORT=...`; the server bin
 - Both original and local initialize the Phaser state machine to `IddleState` with identical HUD values (balance 100000, total bet 20, win 0) and identical canvas payload length. The preview is a demo build whose spin control is non-interactive, so spin-cycle parity cannot be exercised on either copy; the limitation is identical on the original.
 - Server checks: root/HEAD 200, missing asset 404, malformed percent-encoding 400, encoded NUL 400, encoded traversal 403, POST 405, WAV `audio/wav`, invalid port rejected.
 
-## Distribution posture
+## Ownership
 
-The captured game code, artwork, audio, and fonts are third-party Envato preview assets. This directory is prepared for the repository's authorized local portfolio/research workflow; do not publish or redistribute these assets without the rights holder's permission.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance (source listing, capture date, per-file hashes) is retained in [NOTES.md](NOTES.md) and `capture-manifest.json` as distribution-reference metadata.

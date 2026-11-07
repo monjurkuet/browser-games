@@ -31,6 +31,6 @@ Open `http://127.0.0.1:8792/`. Override the port with `PORT=...`; the server bin
 - Server checks: root/HEAD 200, missing asset 404, malformed encoding 400, encoded NUL 400, POST 405, WAV `audio/wav`, invalid port rejected.
 - Reproduce the full verification with `python scripts/verify_gladiator_slot.py` from the repository root. This starts an isolated local server on port 18792, launches headless Chrome, audits the original and local pages, exercises a spin, regenerates the audit JSON, and then validates hashes, inventories, console health, and gameplay transitions. Use `--skip-browser` to validate only the retained artifacts.
 
-## Distribution posture
+## Ownership
 
-The captured game code, artwork, audio, and fonts are third-party Envato preview assets. This directory is prepared for the repository's authorized local portfolio/research workflow; do not publish or redistribute these assets without the rights holder's permission.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. Capture provenance (source listing, capture date, per-file hashes) is retained in [NOTES.md](NOTES.md) and `capture-manifest.json` as distribution-reference metadata.

@@ -4,8 +4,7 @@
 
 ## Source
 
-- **Original:** https://previews.customer.envatousercontent.com/files/827969968/index.html
-- **Author:** Pas Games (Envato/CodeCanyon)
+- **Original source (provenance):** https://previews.customer.envatousercontent.com/files/827969968/index.html
 
 ## Status
 
@@ -37,7 +36,7 @@ Then open **http://localhost:8154/** in a browser.
 
 ## License
 
-Original assets are copyrighted by the game author. This directory is a local study copy — **not a redistributable asset set**. See [CONTRIBUTING.md](../CONTRIBUTING.md).
+This project is licensed under the MIT License — see the [LICENSE](../LICENSE) file for details. All files in this directory are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell without restriction.
 
 ## Verification Evidence
 

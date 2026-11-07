@@ -30,4 +30,4 @@ The local server provides the MIME types required by Construct 3, returns true 4
 
 ## Notes
 
-This is a local direct port for the repository's authorized portfolio/research workflow. Original game art, audio, and project data remain the property of their respective rights holders; the source site did not present a separate asset license during capture. The repository's MIT license covers the repository's own code, not third-party game assets. Treat this directory as non-redistributable unless the source rights holder grants permission.
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The build was captured from the TegaGame showcase listing above; capture provenance and the file manifest are retained in [NOTES.md](NOTES.md) as distribution-reference metadata. Entry-point HTML metadata carries the portfolio's ownership branding; every other staged file matches its capture-manifest hash.

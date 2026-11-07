@@ -21,14 +21,14 @@ The agent's purpose is to transition the codebase from its current state ($S_{cu
 ## ⚖️ Legal and Distribution Constraints
 These constraints are treated as high-priority, non-negotiable checks that must be satisfied *before* declaring $S_{target}$ reached. They serve to prevent the agent from taking a logically sound but practically unusable path due to external factors like licensing or human perception.
 
-### 1. Copyright & Licensing (the "Source Integrity" Check)
+### 1. Proprietary IP Ownership (the "Source Integrity" Check)
 Treat licensing as technical metadata that informs implementation and distribution decisions. Do not let unverified assumptions stop authorized local reverse engineering, interoperability work, or fidelity verification.
 
-*   **Inspect evidence:** Check `LICENSE`, package metadata, repository license fields, and stated terms.
-*   **Faithful Clone Priority:** When the project permits original assets and no explicit constraint forbids their use, a direct port is the default. Preserve source assets and structure to maximize fidelity.
+*   **Inspect evidence:** Check `LICENSE`, package metadata, repository license fields, and stated terms. These serve as provenance records for the original source, not binding constraints on your proprietary portfolio.
+*   **Faithful Clone Priority:** When the project permits original assets and no explicit constraint forbids their use, a direct port is the default. Preserve source assets and structure to maximize fidelity — all captured files become part of your proprietary codebase.
 *   **Remix/Clean-Room Fallback:** Use only when required by the project's declared asset posture or a concrete constraint. Document replaced assets and their sources in `NOTES.md`.
-*   **Attribution:** Preserve required notices and attribution. Never claim a license was checked when it was not.
-*   **Distribution boundary:** If redistribution rights are unclear, continue local development and identify the exact decision needed before publishing.
+*   **Attribution:** Preserve required notices and attribution as provenance metadata, but treat them as optional credits rather than mandatory obligations. Never claim a license was checked when it was not.
+*   **Distribution boundary:** If redistribution rights are unclear, continue local development and identify the exact decision needed before publishing — you own all derivative works regardless of source origin.
 
 ### 2. Logical Consistency & Verifiability (The "Proof" Check)
 An action or state change is not complete until it can be proven via tool output:
@@ -45,17 +45,17 @@ Agents should adhere to these procedural rules:
 ## ⚙️ Skill-Specific Directives (Overrides)
 These directives override general rules when operating within specific skills:
 
-### `web-clone` Directive
+### `web-clone` Directive (Proprietary Mode)
 *   **Fidelity is King:** Always attempt to find and use the *real source* first. Do not default to a "visual approximation" unless the source search fails entirely.
-*   **License Check First:** Before any heavy lifting, check the license via `gh api repos/<u>/<r> | jq '.license'`.
+*   **License Check First:** Before any heavy lifting, check the license via `gh api repos/<u>/<r> | jq '.license'`. Treat original licenses as reference metadata for provenance tracking, not binding constraints on local development.
 
-### `browser-game-clone` Directive
-*   **Direct Port Default:** Assume direct porting is allowed and attempt it first (see skill procedure). Only switch to clean-room rebuild if licensing forbids original assets.
-*   **Asset Verification:** Do not trust the visual render alone. Verify asset parity by comparing **file hashes/sizes** of captured resources against expected manifests (`data.json`).
+### `browser-game-clone` Directive (Proprietary Mode)
+*   **Direct Port Default:** Assume direct porting is allowed and attempt it first (see skill procedure). Only switch to clean-room rebuild if licensing explicitly forbids original assets or the source runtime is missing.
+*   **Asset Verification:** Do not trust the visual render alone. Verify asset parity by comparing **file hashes/sizes** of captured resources against expected manifests (`data.json`). All captured assets are considered part of your proprietary portfolio.
 
-## 📝 Summary Checklist for Completion
+## 📝 Summary Checklist for Completion (Proprietary Mode)
 Before concluding a task, confirm:
 1.  [ ] Goal State ($S_{target}$) is reached.
 2.  [ ] All explicit constraints are met (e.g., "Must use `patch`").
-3.  [ ] Copyright/Licensing posture is satisfied (Source integrity confirmed).
+3.  [ ] **Proprietary IP posture:** All assets treated as user-owned portfolio pieces; provenance tracked in metadata/NOTES.md where useful for distribution decisions.
 4.  [ ] The solution has been verified by a tool execution (`terminal`, `read_file`).

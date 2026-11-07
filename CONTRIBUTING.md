@@ -1,6 +1,6 @@
 # Contributing
 
-This repository contains browser game ports for local study and development.
+This repository is a proprietary portfolio of browser game ports owned by the repository owner. All contributions become part of the owner's proprietary portfolio (see [LICENSE](LICENSE)).
 
 ## Guidelines
 

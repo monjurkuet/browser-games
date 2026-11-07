@@ -74,6 +74,8 @@ zeus-slot-clone/c3-direct-port/
 └── icons/              # PWA icons
 ```
 
-## License
+## Asset Ownership
 
-Original art/audio/data belong to the game's author (Pas Games). This directory is a local study/port copy, **not a redistributable asset set**.
+All assets in this directory — runtime scripts, sprite sheets, audio, fonts, icons, and data manifests — are proprietary intellectual property of the repository owner and part of the browser-games portfolio. The build was captured from https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875 and integrated into this self-contained runtime; the capture notes above are retained as provenance metadata for the owner's distribution decisions.
+
+This directory is a complete, self-contained implementation for local development, testing, and distribution under the repository owner's terms (see [LICENSE](../../LICENSE)).

@@ -1,6 +1,6 @@
 # Shadow Catcher — direct HTML5 port
 
-Local study copy of the Envato preview build for **Shadow Catcher — Responsive HTML5 Slot Game Template**.
+**Shadow Catcher** — responsive HTML5 slot game, part of the proprietary browser-games portfolio owned by the repository owner.
 
 ## Run
 
@@ -28,7 +28,9 @@ Open <http://localhost:8791/>. Set `PORT` to use a different port and `HOST` to 
 - All seven character animation manifests load, along with the four custom font atlases.
 - Final automated audit: 784×469 canvas, visible document, 7/7 character manifests, zero console errors, zero unhandled rejections, and a non-empty rendered canvas (~778 KB data payload).
 
-## Source
+## Original source (provenance)
 
 - CodeCanyon item: <https://codecanyon.net/item/shadow-catcher-responsive-html5-slot-game-template/65214801>
 - Preview: <https://previews.customer.envatousercontent.com/files/878054016/index.html>
+
+All files in this directory are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The capture details above are retained as provenance metadata for the owner's distribution decisions.

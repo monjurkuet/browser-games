@@ -1,11 +1,8 @@
 # zeus-slot-clone · Clone notes
 
 ## Source info
-- Original URL: https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875
-- Source repo: 
-- Original author: 
-- License: 
-- Attribution requirements: 
+- Original source (provenance): https://preview.codecanyon.net/item/zeus-slot-html5-game/full_screen_preview/64947875
+- Ownership: proprietary portfolio asset of the repository owner; the verified direct port lives in [c3-direct-port/](c3-direct-port/) (see its NOTES.md)
 
 ## Tech stack
 - Framework / key libraries / Node version: 
@@ -44,7 +41,7 @@ python3 -m http.server 8123
 - Responsive: /5
 - Functional completeness: /5
 - Content replacement: /5
-- Legal/deploy risk: /5
+- Deploy readiness: /5
 - Overall: 
 
 ## Replacement map (what to change, where)

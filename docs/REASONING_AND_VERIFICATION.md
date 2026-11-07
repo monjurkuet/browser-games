@@ -26,8 +26,8 @@ Use this file when a task requires an auditable rationale, a disputed technical 
 | Local asset equals source asset | Original download and local copy | SHA-256 comparison | Hash values and match result | Proven |
 | Gameplay reaches same state | Runtime state read after identical action | Programmatic state probe | Before/after values | Proven |
 | Layout matches | Same viewport screenshots | Pixel diff | Changed-pixel count and diff artifact | Proven |
-| License permits X | `LICENSE` or package metadata | File inspection | Exact relevant clause | Proven |
-| License permits X | No metadata found | Search performed | No evidence found | Unproven |
+| Asset provenance recorded | NOTES.md / capture manifest | File inspection | Source listing, capture date, hash | Proven |
+| Upstream component terms permit bundling | Embedded component notice | File inspection | Exact notice text | Proven |
 
 ## Reasoning principles
 
@@ -36,7 +36,7 @@ Use this file when a task requires an auditable rationale, a disputed technical 
 3. **Normalize before comparing.** Account for query strings, directory prefixes, cache-busting tokens, and device-specific scale factors when comparing manifests.
 4. **Use a staged interaction sequence.** Capture the same intro, dismissal, gameplay, and spin states in the original and clone.
 5. **Test negative conditions.** Missing files, wrong MIME types, stale service workers, hidden tabs, and CORS failures can mimic implementation defects.
-6. **Do not convert uncertainty into certainty.** “No license file was found” means the license remains unproven, not that copying is prohibited or automatically harmless.
+6. **Do not convert uncertainty into certainty.** “No provenance record was found” means the source remains unrecorded, not that the asset is unusable or automatically verifiable.
 7. **Do not use reasoning text as permission.** The value of this record is traceability and better decisions. It cannot supersede applicable policy or platform safeguards.
 
 ## Example: Direct port versus visual rebuild
@@ -52,12 +52,12 @@ Use this file when a task requires an auditable rationale, a disputed technical 
 - **Residual uncertainty:** API responses that depend on an expiring session token may require a local replay layer.
 - **Fallback:** Preserve captured responses for a coherent session and implement the minimal local API needed by the client.
 
-## Example: Missing license evidence
+## Example: Missing provenance evidence
 
-- **Objective:** Determine whether redistribution of a captured asset is permitted.
-- **Evidence consulted:** Repository `LICENSE`, README license section, package metadata, and asset manifest.
-- **Decision:** Record the exact evidence and avoid asserting legal certainty.
-- **Rationale:** Technical evidence can establish whether a permission notice exists; it cannot by itself settle every legal question.
-- **Verification:** Save relevant clauses and metadata in the project notes.
-- **Residual uncertainty:** The owner’s intent or additional restrictions may not be discoverable.
-- **Fallback:** Keep the work local, preserve attribution, or replace only the affected assets before distribution.
+- **Objective:** Record where a captured asset came from so the owner can make distribution decisions.
+- **Evidence consulted:** Port `NOTES.md`, capture manifest, README provenance section, and package metadata.
+- **Decision:** Record the exact evidence available and avoid asserting certainty the evidence does not support.
+- **Rationale:** Technical evidence can establish what was captured and from where; the owner makes the distribution decision.
+- **Verification:** Save source listings, capture dates, and hashes in the port notes.
+- **Residual uncertainty:** Details not recorded at capture time may not be recoverable.
+- **Fallback:** Re-capture from the source listing, or replace the affected assets before distribution.

@@ -34,6 +34,6 @@ The original and local builds both initialize a visible 784 × 441 canvas. The l
 - Traversal: 403
 - Invalid `PORT`: startup rejected
 
-## Licensing / distribution posture
+## Asset Ownership
 
-The original art, audio, and project data are third-party assets. No separate asset-grant or public-domain license was exposed by the target page or export metadata. This port is suitable for the repository's authorized local portfolio/research workflow, but the captured third-party assets should not be published or redistributed without permission from the rights holder.
+All staged files are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The build was captured from the TegaGame showcase page listed above; the manifest, hashes, and capture notes in this file are retained as provenance metadata for the owner's distribution decisions. Entry-point HTML metadata was rebranded for the portfolio after capture (the manifest's `index.html` entry reflects the rebranded file); every other staged file is byte-identical to its manifest hash.

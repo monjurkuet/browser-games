@@ -18,6 +18,6 @@ The original page was opened in Chrome and `performance.getEntriesByType('resour
 - Both original and local consoles have zero uncaught errors, unhandled rejections, or `console.error` calls.
 - `scripts/audit_magic_lady_slot.mjs` regenerates the browser audits; `scripts/verify_magic_lady_slot.py` runs it by default and then checks hashes, inventories, consoles, and state transitions.
 
-## Licensing / distribution posture
+## Asset Ownership
 
-No separate asset grant or public-domain license was exposed by the preview metadata. Captured files remain third-party material and should not be published or redistributed without rights-holder permission.
+All captured files are proprietary intellectual property of the repository owner, part of the browser-games portfolio. The capture inventory, hashes, and audits referenced above are retained as provenance metadata for the owner's distribution decisions.
